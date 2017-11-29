@@ -9,10 +9,6 @@ and for the multiples of five print Buzz.
 For numbers which are multiples of both three and five print FizzBuzz
 """
 
-__author__ = "Christopher J. Burke"
-__email__ = "christopherjamesburke@gmail.com"
-
-
 def fizz_buzz(input_number, fizz=3, buzz=5):
     """Fizz Buzz function.
 

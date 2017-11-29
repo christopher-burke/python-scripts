@@ -5,13 +5,6 @@ r"""Return the delta of the current date.
 Based on the past/futureand number of days/weeks.
 """
 
-__author__ = "Christopher James Burke"
-__credits__ = ["Christopher James Burke"]
-__version__ = "1.0.0"
-__maintainer__ = "Christopher James Burke"
-__email__ = "christopherjamesburke@gmail.com"
-__date__ = "2013/02/01 13:01:42"
-
 import sys
 from operator import add, sub
 from datetime import timedelta, datetime

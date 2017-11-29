@@ -1,10 +1,6 @@
 #! /usr/bin/env python
 """Class based random password generator.  Uses string, random, sys modules."""
 
-__author__ = "Christopher James Burke"
-__email__ = "christopherjamesburke@gmail.com"
-__status__ = "Development"
-__date__ = "2012/10/20 16:51:54"
 
 import random
 import string

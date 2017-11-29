@@ -4,12 +4,6 @@
 
 from __future__ import division, print_function
 
-__author__ = "Christopher James Burke"
-__version__ = "1.0.0"
-__email__ = "christopherjamesburke@gmail.com"
-__status__ = "Development"
-__date__ = "2012/10/01 23:17:55"
-
 
 class Nfl_Qb_Rating(object):
     """Nfl_Qb_Rating class."""

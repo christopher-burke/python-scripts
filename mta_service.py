@@ -1,16 +1,6 @@
 #!/usr/bin/python
 
-''' Python Script to get the status of MTA Service. '''
-
-__author__ = "Christopher James Burke"
-__copyright__ = ""
-__credits__ = ["Christopher James Burke"]
-__license__ = ""
-__version__ = "1.0.0"
-__maintainer__ = "Christopher James Burke"
-__email__ = "christopherjamesburke@gmail.com"
-__status__ = "Production"
-__date__ = "2013/09/21 14:27:28"
+"""Python Script to get the status of MTA Service."""
 
 import urllib
 from xml.etree.ElementTree import parse

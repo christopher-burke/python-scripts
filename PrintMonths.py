@@ -4,15 +4,6 @@
 """Print the calendars for last, this, and next
 month to display on the desktop."""
 
-__author__ = "Christopher James Burke"
-__credits__ = ["Christopher James Burke"]
-__version__ = "1.0.7"
-__maintainer__ = "Christopher James Burke"
-__email__ = "christopherjamesburke@gmail.com"
-__status__ = "Production"
-__date__ = "2013/09/21 14:06:13"
-
-
 import calendar
 import color
 from datetime import datetime
