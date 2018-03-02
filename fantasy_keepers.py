@@ -20,7 +20,6 @@ Keeper = namedtuple('Keeper', ['last_name',
                                ])
 # Create your seasons here
 seasons = [
-    # YearLeagueId(2018, 64152),
     YearLeagueId(2017, 1),
     YearLeagueId(2016, 2),
 ]
@@ -34,9 +33,9 @@ def keeper(first_name, last_name, _x, team, _y, position):
 delay = 0.5
 opts = Options()
 browser = Firefox(options=opts)
-for x in seasons:
-    draft_results = DRAFTRESULTS_BASE_URL.format(*x)
-    browser.get(draft_results)
+for season in seasons:
+    draft_results_url = DRAFTRESULTS_BASE_URL.format(*season)
+    browser.get(draft_results_url)
 
     # Handle Login
     if browser.current_url != draft_results:
