@@ -1,6 +1,6 @@
 """Get Fantasy Baseball Keepers from years past."""
 
-
+from os import environ
 from collections import namedtuple
 from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
@@ -9,8 +9,8 @@ from time import sleep
 
 DRAFTRESULTS_BASE_URL = "https://baseball.fantasysports.yahoo.com/archive/mlb/{0}/{1}/draftresults?drafttab=team"
 
-username = ''
-password = ''
+username = environ.get('FANTASY_USERNAME')
+password = environ.get('FANTASY_PASSWORD')
 
 YearLeagueId = namedtuple('YearLeagueId', ['year', 'league_id'])
 Keeper = namedtuple('Keeper', ['last_name',
@@ -19,10 +19,11 @@ Keeper = namedtuple('Keeper', ['last_name',
                                'position'
                                ])
 # Create your seasons here
-seasons = [
-    YearLeagueId(2017, 1),
-    YearLeagueId(2016, 2),
-]
+year_leagueid = ((2017, 1),
+                 (2016, 2),)
+
+
+seasons = map(lambda x: YearLeagueId(x[0], x[1]), year_leagueid)
 
 
 def keeper(first_name, last_name, _x, team, _y, position):
@@ -38,14 +39,16 @@ for season in seasons:
     browser.get(draft_results_url)
 
     # Handle Login
-    if browser.current_url != draft_results:
+    # Username
+    if browser.current_url != draft_results_url:
         sleep(delay)
         logintxt = browser.find_element_by_name("username")
         logintxt.send_keys(username)
         button = browser.find_element_by_id("login-signin")
         button.click()
 
-    if browser.current_url != draft_results:
+    # Password
+    if browser.current_url != draft_results_url:
         sleep(delay)
         logintxt = browser.find_element_by_name("password")
         logintxt.send_keys(password)
@@ -54,9 +57,10 @@ for season in seasons:
 
     soup = BeautifulSoup(browser.page_source, 'html.parser')
     keepers = soup.select('span[title="This player is a keeper."]')
-    players = [player.findParent() for player in keepers]
+    keepers = [player.findParent() for player in keepers]
+    for k in keepers:
+        print(k.text.split())
 
-    # movie_player = browser.find_element_by_id('')
     x = input("Continue?: ")
     if x == 'n':
         break
