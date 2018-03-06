@@ -33,5 +33,6 @@ def main():
     for link in set(links):
         print(link)
 
+
 if __name__ == "__main__":
     main()
