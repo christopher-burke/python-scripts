@@ -31,7 +31,7 @@ def main():
     html = page.text
     links = re.findall(URL_REGEX, html, re.I)
     for link in set(links):
-        print(link)
+        print(link.replace('\'', ''))
 
 
 if __name__ == "__main__":
