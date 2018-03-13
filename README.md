@@ -9,7 +9,6 @@ These are python scripts I have created, modified or used. Some scripts are for 
 |delta_date.py|Return the delta of the current date.|
 |dev_utils.py|Collection of Utilities.|
 |dug_dice.py|Dug Dice.|
-|emailer.py|Nothing defined.|
 |fantasy_keepers.py|Get Fantasy Baseball Keepers from years past.|
 |find_all_links.py|Find all links from url.|
 |find_files.py|Find all files matching a pattern.|
@@ -18,9 +17,7 @@ These are python scripts I have created, modified or used. Some scripts are for 
 |inquisitor.py|List file type info.|
 |iTunes.py|Python Script to get the Track, Artist and Album from iTunes. |
 |mta_service.py|Python Script to get the status of MTA Service.|
-|nintendo_music.py|Nothing defined.|
 |nyj_live_score.py|Get the New York Jets schedule and scores of a season from NFL.com.|
-|passport.py|Nothing defined.|
 |PrintMonths.py|Print the calendars for last, this, and next|
 |qb_rating.py|NFL Quarterback Rating.|
 |random_password_gen.py|Class based random password generator.  Uses string, random, sys modules.|
@@ -28,7 +25,6 @@ These are python scripts I have created, modified or used. Some scripts are for 
 |remove_pyc.py|Search and remove pyc files.|
 |reverse.py|Reverse an input string.|
 |SuperBowlNumbers.py|Get the numbers for the superbowl box pools.|
-|virtualenv_env_requirements.py|Nothing defined.|
 |watch_dir_windows.py|Watch Directory Windows.|
 |watch_windows.py|Watch Windows.|
 |weather.py|Weather from weather.gov.|
