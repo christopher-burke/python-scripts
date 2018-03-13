@@ -5,11 +5,17 @@
 from pathlib import Path
 import ast
 from jinja2 import Environment, FileSystemLoader
-
+from subprocess import Popen, PIPE
 
 file_loader = FileSystemLoader('templates')
 env = Environment(loader=file_loader)
 template = env.get_template('readme_template.md')
+
+FILES = Popen("git ls-tree -r master --name-only",
+              shell=True, stdout=PIPE).stdout.read()
+FILES = FILES.decode().split('\n')
+
+scripts = []
 
 
 def get_value(value):
@@ -20,24 +26,43 @@ def get_value(value):
         return None
 
 
+def process(path, name):
+    d = {}
+    global scripts
+    with open(path.as_posix()) as fd:
+        file_contents = fd.read()
+    module = ast.parse(file_contents)
+    docstring = ast.get_docstring(module)
+    docstring_line = get_value(docstring)
+    if docstring_line:
+        d['name'] = name
+        d['docstring'] = docstring_line
+        scripts.append(d)
+
+
+def search_dir(d, basepath, extension):
+    """Search directories recursively for repo files."""
+    for path in d.iterdir():
+        string_path = str(path).replace(basepath, '')[1:]
+        if path.is_dir():
+            search_dir(path, basepath)
+        if string_path in FILES and path.suffix == extension:
+            print(string_path)
+            process(path, string_path)
+
+
+def write_readme():
+    """Write readme.md file."""
+    global scripts
+    with open('README.md', 'w') as f:
+        f.write(template.render(scripts=scripts))
+
+
 def main():
     """Create a readme.md file."""
-    with open('README.md', 'w') as f:
-        p = Path.cwd()
-        scripts = []
-        for path in p.iterdir():
-            d = {}
-            if path.suffix == '.py':
-                with open(path.as_posix()) as fd:
-                    file_contents = fd.read()
-                module = ast.parse(file_contents)
-                docstring = ast.get_docstring(module)
-                docstring_line = get_value(docstring)
-                if docstring_line:
-                    d['name'] = str(path.name)
-                    d['docstring'] = docstring_line
-                    scripts.append(d)
-        f.write(template.render(scripts=scripts))
+    p = Path.cwd()
+    search_dir(p, str(p))
+    write_readme()
 
 
 if __name__ == "__main__":
