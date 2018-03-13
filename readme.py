@@ -14,7 +14,7 @@ template = env.get_template('readme_template.md')
 FILES = Popen("git ls-tree -r master --name-only",
               shell=True, stdout=PIPE).stdout.read()
 FILES = FILES.decode().split('\n')
-
+EXTENSION = '.py'
 scripts = []
 
 
@@ -27,6 +27,7 @@ def get_value(value):
 
 
 def process(path, name):
+    """Github Markdown table format for name and docstring."""
     d = {}
     global scripts
     with open(path.as_posix()) as fd:
@@ -45,7 +46,7 @@ def search_dir(d, basepath, extension):
     for path in d.iterdir():
         string_path = str(path).replace(basepath, '')[1:]
         if path.is_dir():
-            search_dir(path, basepath)
+            search_dir(path, basepath, extension)
         if string_path in FILES and path.suffix == extension:
             print(string_path)
             process(path, string_path)
@@ -61,7 +62,7 @@ def write_readme():
 def main():
     """Create a readme.md file."""
     p = Path.cwd()
-    search_dir(p, str(p))
+    search_dir(p, str(p), EXTENSION)
     write_readme()
 
 
