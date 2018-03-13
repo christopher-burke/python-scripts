@@ -5,5 +5,5 @@ These are python scripts I have created, modified or used. Some scripts are for 
 
 | Script  | DocString |
 | ------------- | ------------- |
-{% for x in scripts %}|<a href="./blob/master/{{x.name}}">{{x.name}}</a>|{{x.docstring}}|
+{% for x in scripts %}|<a href="./{{x.name}}">{{x.name}}</a>|{{x.docstring}}|
 {% endfor %}
