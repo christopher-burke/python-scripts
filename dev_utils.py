@@ -2,13 +2,23 @@
 
 """Collection of Utilities."""
 
-import subprocess
 import requests
+from subprocess import Popen, PIPE
+from datetime import datetime
+import logging
+logging.basicConfig(level=logging.DEBUG)
+
+
+def say(phrase):
+    """Say the time and phrase, using the macOS 'say' command."""
+    now = datetime.now().strftime("%I:%M %p")
+    Popen(f"say \"It's {now}! {phrase}\".", shell=True, stdout=PIPE)
+    logging.debug(f"say \"It's {now}! {phrase}\".")
 
 
 def shell(*args):
     """Execute shell commands and return stdout."""
-    process = subprocess.Popen(args, stdout=subprocess.PIPE)
+    process = Popen(args, stdout=PIPE)
     stdout, out = process.communicate()
     return stdout
 
