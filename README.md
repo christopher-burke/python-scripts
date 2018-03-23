@@ -7,6 +7,7 @@ These are python scripts I have created, modified or used. Some scripts are for 
 | ------------- | ------------- |
 |<a href="./ad/account_expiration.py">ad/account_expiration.py</a>|Account Expiration|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
+|<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./default_pw_generator.py">default_pw_generator.py</a>|Default initial password generator.|
 |<a href="./delta_date.py">delta_date.py</a>|Return the delta of the current date.|
 |<a href="./dev_utils.py">dev_utils.py</a>|Collection of Utilities.|
