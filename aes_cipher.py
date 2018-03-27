@@ -50,7 +50,7 @@ def b(x):
 def key():
     """Get key from variables."""
     key = os.environ["KEY"]
-    key = key.split('\\')
+    key = key.split("\\")
     key = b"".join([b(x) for x in key[1:]])
     return key
 
@@ -58,7 +58,7 @@ def key():
 if __name__ == "__main__":
     key = key()
     cipher = AESCipher(key, mode=None)
-    text = 'This is a test!'
+    text = "This is a test!"
     ciphertext = cipher.encrypt(text)
     print(ciphertext)
     plaintext = cipher.decrypt(ciphertext)
