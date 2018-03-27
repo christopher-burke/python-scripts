@@ -6,6 +6,7 @@ These are python scripts I have created, modified or used. Some scripts are for 
 | Script  | DocString |
 | ------------- | ------------- |
 |<a href="./ad/account_expiration.py">ad/account_expiration.py</a>|Account Expiration|
+|<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./db_template.py">db_template.py</a>|SQLite3 database creation.|
