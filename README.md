@@ -36,6 +36,7 @@ These are python scripts I have created, modified or used. Some scripts are for 
 |<a href="./random_password_gen.py">random_password_gen.py</a>|Class based random password generator.  Uses string, random, sys modules.|
 |<a href="./readme.py">readme.py</a>|Generate the README.md file a repo.|
 |<a href="./remove_pyc.py">remove_pyc.py</a>|Search and remove pyc files.|
+|<a href="./replace_x.py">replace_x.py</a>|Replace all code letters with X.|
 |<a href="./rotational_cipher.py">rotational_cipher.py</a>|Rotational Cipher.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./SuperBowlNumbers.py">SuperBowlNumbers.py</a>|Get the numbers for the superbowl box pools.|
