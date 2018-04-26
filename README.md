@@ -30,6 +30,7 @@ These are python scripts I have created, modified or used. Some scripts are for 
 |<a href="./make_gif.py">make_gif.py</a>|Create gif from directory.|
 |<a href="./move_folder_files.py">move_folder_files.py</a>|Move files to another folder.|
 |<a href="./mta_service.py">mta_service.py</a>|Python Script to get the status of MTA Service.|
+|<a href="./nums_square_cube.py">nums_square_cube.py</a>|Squares and Cubes for a range of numbers.|
 |<a href="./nyj_live_score.py">nyj_live_score.py</a>|Get the New York Jets schedule and scores of a season from NFL.com.|
 |<a href="./PrintMonths.py">PrintMonths.py</a>|Print the calendars for last, this, and next|
 |<a href="./qb_rating.py">qb_rating.py</a>|NFL Quarterback Rating.|
