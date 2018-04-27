@@ -8,6 +8,7 @@ These are python scripts I have created, modified or used. Some scripts are for 
 |<a href="./ad/account_expiration.py">ad/account_expiration.py</a>|Account Expiration|
 |<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
+|<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./csv_to_json.py">csv_to_json.py</a>|Convert CSV file to JSON file.|
 |<a href="./db_template.py">db_template.py</a>|SQLite3 database creation.|
