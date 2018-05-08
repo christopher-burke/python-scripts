@@ -2,6 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
+There's now 40 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
