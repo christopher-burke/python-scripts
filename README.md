@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 40 python files in this repo.
+There's now 41 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -19,6 +19,7 @@ There's now 40 python files in this repo.
 |<a href="./dev_utils.py">dev_utils.py</a>|Collection of Utilities.|
 |<a href="./dug_dice.py">dug_dice.py</a>|Dug Dice.|
 |<a href="./fantasy_matchup_week.py">fantasy_matchup_week.py</a>|Week number matchups for Fantasy Baseball.|
+|<a href="./fibonacci.py">fibonacci.py</a>|Fibonacci.|
 |<a href="./find_all_links.py">find_all_links.py</a>|Find all links from url.|
 |<a href="./find_files.py">find_files.py</a>|Find all files matching a pattern.|
 |<a href="./find_local_ips.py">find_local_ips.py</a>|Find all local ip addresses in an ip network.|
