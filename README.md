@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 41 python files in this repo.
+There's now 42 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -17,6 +17,7 @@ There's now 41 python files in this repo.
 |<a href="./default_pw_generator.py">default_pw_generator.py</a>|Default initial password generator.|
 |<a href="./delta_date.py">delta_date.py</a>|Return the delta of the current date.|
 |<a href="./dev_utils.py">dev_utils.py</a>|Collection of Utilities.|
+|<a href="./divisors.py">divisors.py</a>|Divisors: Find all the divisors of a number.|
 |<a href="./dug_dice.py">dug_dice.py</a>|Dug Dice.|
 |<a href="./fantasy_matchup_week.py">fantasy_matchup_week.py</a>|Week number matchups for Fantasy Baseball.|
 |<a href="./fibonacci.py">fibonacci.py</a>|Fibonacci.|
