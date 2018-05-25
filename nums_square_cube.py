@@ -5,7 +5,7 @@
 Given a start and end, calucate the Square x**2 and
 the Cube x**3 for all numbers.
 
-Example of generator and tuple packing/unpacking.
+Example of generator and functools.partial.
 """
 
 
