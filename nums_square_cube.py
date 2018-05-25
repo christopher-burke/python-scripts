@@ -9,11 +9,22 @@ Example of generator and tuple packing/unpacking.
 """
 
 
+from functools import partial
+
+
+def power(base, exponent):
+    """Raise a base to the exponent."""
+    return base ** exponent
+
+
+square = partial(power, exponent=2)
+cube = partial(power, exponent=3)
+
+
 def main(start, end):
     """Square and cube all numbers in range of start to end."""
     for i in range(start, end+1):
-        square, cube = i**2, i**3
-        yield i, square, cube
+        yield i, square(i), cube(i)
 
 
 if __name__ == "__main__":
