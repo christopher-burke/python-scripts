@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 44 python files in this repo.
+There's now 45 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -10,7 +10,7 @@ There's now 44 python files in this repo.
 |<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
-|<a href="./breath.py">breath.py</a>|Rhythmic breathing.|
+|<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
 |<a href="./bst.py">bst.py</a>|Binary Search Tree.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./csv_to_json.py">csv_to_json.py</a>|Convert CSV file to JSON file.|
@@ -48,5 +48,6 @@ There's now 44 python files in this repo.
 |<a href="./rotational_cipher.py">rotational_cipher.py</a>|Rotational Cipher.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./SuperBowlNumbers.py">SuperBowlNumbers.py</a>|Get the numbers for the superbowl box pools.|
+|<a href="./swapi.py">swapi.py</a>|Python Generator - Crawl Star Wars API (swapi.io).|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
 |<a href="./weather.py">weather.py</a>|Weather from weather.gov.|
