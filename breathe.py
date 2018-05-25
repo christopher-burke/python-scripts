@@ -6,8 +6,8 @@ from time import sleep
 import sys
 
 
-def breath(inhale_time: int=4, exhale_time: int=6):
-    """Breath in and out at a set pace.
+def breathe(inhale_time: int=4, exhale_time: int=6):
+    """Breathe in and out at a set pace.
 
     inhale_time int time in seconds.
     exhale_time int time in seconds.
@@ -30,6 +30,6 @@ def breath(inhale_time: int=4, exhale_time: int=6):
 if __name__ == "__main__":
     try:
         while True:
-            breath()
+            breathe()
     except KeyboardInterrupt:
         print("\nThank you")
