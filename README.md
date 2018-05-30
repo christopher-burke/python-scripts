@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 46 python files in this repo.
+There's now 47 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -28,6 +28,7 @@ There's now 46 python files in this repo.
 |<a href="./find_files.py">find_files.py</a>|Find all files matching a pattern.|
 |<a href="./find_local_ips.py">find_local_ips.py</a>|Find all local ip addresses in an ip network.|
 |<a href="./FizzBuzz.py">FizzBuzz.py</a>|FizzBuzz Test.|
+|<a href="./html_decorators.py">html_decorators.py</a>|HTML Decorators Example.|
 |<a href="./ifttt/ifttt_event_trigger.py">ifttt/ifttt_event_trigger.py</a>|IFTTT Maker Webhooks event trigger.|
 |<a href="./inquisitor.py">inquisitor.py</a>|List file type info.|
 |<a href="./itertools_demo.py">itertools_demo.py</a>|Itertools demo.|
