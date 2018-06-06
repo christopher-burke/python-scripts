@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 47 python files in this repo.
+There's now 48 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -53,3 +53,4 @@ There's now 47 python files in this repo.
 |<a href="./swapi.py">swapi.py</a>|Python Generator - Crawl Star Wars API (swapi.io).|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
 |<a href="./weather.py">weather.py</a>|Weather from weather.gov.|
+|<a href="./weekday_wrapper.py">weekday_wrapper.py</a>|Useful Weekday wrappers.|
