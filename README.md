@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 50 python files in this repo.
+There's now 51 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -17,13 +17,15 @@ There's now 50 python files in this repo.
 |<a href="./db_template.py">db_template.py</a>|SQLite3 database creation.|
 |<a href="./default_pw_generator.py">default_pw_generator.py</a>|Default initial password generator.|
 |<a href="./delta_date.py">delta_date.py</a>|Return the delta of the current date.|
-|<a href="./demo_abc.py">demo_abc.py</a>|Abstract Base Class (ABC) testing.|
-|<a href="./demo_difflib.py">demo_difflib.py</a>|Example of difflib.|
-|<a href="./demo_singledispatch.py">demo_singledispatch.py</a>|Sample of functools.singledispatch.|
+|<a href="./demo/abc_demo.py">demo/abc_demo.py</a>|Abstract Base Class (ABC) testing.|
+|<a href="./demo/difflib_demo.py">demo/difflib_demo.py</a>|Example of difflib.|
+|<a href="./demo/itertools_demo.py">demo/itertools_demo.py</a>|Itertools demo.|
+|<a href="./demo/singledispatch_demo.py">demo/singledispatch_demo.py</a>|Sample of functools.singledispatch.|
 |<a href="./dev_utils.py">dev_utils.py</a>|Collection of Utilities.|
 |<a href="./distinct_file_finder.py">distinct_file_finder.py</a>|Distinct Files in directory.|
 |<a href="./divisors.py">divisors.py</a>|Divisors: Find all the divisors of a number.|
 |<a href="./dug_dice.py">dug_dice.py</a>|Dug Dice.|
+|<a href="./fantasy_keepers.py">fantasy_keepers.py</a>|Get Fantasy Baseball Keepers from years past.|
 |<a href="./fantasy_matchup_week.py">fantasy_matchup_week.py</a>|Week number matchups for Fantasy Baseball.|
 |<a href="./fibonacci.py">fibonacci.py</a>|Fibonacci.|
 |<a href="./find_all_links.py">find_all_links.py</a>|Find all links from url.|
@@ -33,7 +35,6 @@ There's now 50 python files in this repo.
 |<a href="./html_decorators.py">html_decorators.py</a>|HTML Decorators Example.|
 |<a href="./ifttt/ifttt_event_trigger.py">ifttt/ifttt_event_trigger.py</a>|IFTTT Maker Webhooks event trigger.|
 |<a href="./inquisitor.py">inquisitor.py</a>|List file type info.|
-|<a href="./itertools_demo.py">itertools_demo.py</a>|Itertools demo.|
 |<a href="./iTunes.py">iTunes.py</a>|Python Script to get the Track, Artist and Album from iTunes. |
 |<a href="./leap_year.py">leap_year.py</a>|Leap Year tester.|
 |<a href="./list_virtualenvs.py">list_virtualenvs.py</a>|List all virtualenvs.|
