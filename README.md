@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 51 python files in this repo.
+There's now 53 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -10,6 +10,8 @@ There's now 51 python files in this repo.
 |<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
+|<a href="./bingo_caller.py">bingo_caller.py</a>|Bingo ball generator.|
+|<a href="./bingo_card.py">bingo_card.py</a>|Bingo card generator.|
 |<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
 |<a href="./bst.py">bst.py</a>|Binary Search Tree.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
