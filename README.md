@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 53 python files in this repo.
+There's now 54 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -10,8 +10,6 @@ There's now 53 python files in this repo.
 |<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
-|<a href="./bingo_caller.py">bingo_caller.py</a>|Bingo ball generator.|
-|<a href="./bingo_card.py">bingo_card.py</a>|Bingo card generator.|
 |<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
 |<a href="./bst.py">bst.py</a>|Binary Search Tree.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
@@ -44,6 +42,9 @@ There's now 53 python files in this repo.
 |<a href="./make_gif.py">make_gif.py</a>|Create gif from directory.|
 |<a href="./move_folder_files.py">move_folder_files.py</a>|Move files to another folder.|
 |<a href="./mta_service.py">mta_service.py</a>|Python Script to get the status of MTA Service.|
+|<a href="./nameo/ball.py">nameo/ball.py</a>|Bingo ball class.|
+|<a href="./nameo/bingo_card.py">nameo/bingo_card.py</a>|Bingo card generator.|
+|<a href="./nameo/caller.py">nameo/caller.py</a>|Bingo caller.|
 |<a href="./nums_square_cube.py">nums_square_cube.py</a>|Squares and Cubes for a range of numbers.|
 |<a href="./nyj_live_score.py">nyj_live_score.py</a>|Get the New York Jets schedule and scores of a season from NFL.com.|
 |<a href="./PrintMonths.py">PrintMonths.py</a>|Print the calendars for last, this, and next|
