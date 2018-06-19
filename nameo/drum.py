@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+
+"""Bingo Drum class."""
+
+
 from ball import bingo_balls
 from random import shuffle
 
