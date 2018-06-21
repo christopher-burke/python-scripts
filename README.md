@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 56 python files in this repo.
+There's now 58 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -10,9 +10,12 @@ There's now 56 python files in this repo.
 |<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
+|<a href="./bingo_caller.py">bingo_caller.py</a>|Bingo ball generator.|
+|<a href="./bingo_card.py">bingo_card.py</a>|Bingo card generator.|
 |<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
 |<a href="./bst.py">bst.py</a>|Binary Search Tree.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
+|<a href="./collatz_conjecture.py">collatz_conjecture.py</a>|Collatz Conjecture.|
 |<a href="./csv_to_json.py">csv_to_json.py</a>|Convert CSV file to JSON file.|
 |<a href="./db_template.py">db_template.py</a>|SQLite3 database creation.|
 |<a href="./default_pw_generator.py">default_pw_generator.py</a>|Default initial password generator.|
@@ -25,7 +28,6 @@ There's now 56 python files in this repo.
 |<a href="./distinct_file_finder.py">distinct_file_finder.py</a>|Distinct Files in directory.|
 |<a href="./divisors.py">divisors.py</a>|Divisors: Find all the divisors of a number.|
 |<a href="./dug_dice.py">dug_dice.py</a>|Dug Dice.|
-|<a href="./fantasy_keepers.py">fantasy_keepers.py</a>|Get Fantasy Baseball Keepers from years past.|
 |<a href="./fantasy_matchup_week.py">fantasy_matchup_week.py</a>|Week number matchups for Fantasy Baseball.|
 |<a href="./fibonacci.py">fibonacci.py</a>|Fibonacci.|
 |<a href="./find_all_links.py">find_all_links.py</a>|Find all links from url.|
