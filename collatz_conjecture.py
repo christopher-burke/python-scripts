@@ -6,23 +6,32 @@
 import sys
 
 
-def handle_even(n: int):
-    """If n is even, divide it by 2."""
+def handle_even(n: int) -> int:
+    """If n is even, divide it by 2.
+
+    returns int
+    """
     return n // 2
 
 
-def handle_odd(n: int):
-    """If n is odd, multiply it by 3 and add 1."""
+def handle_odd(n: int) -> int:
+    """If n is odd, multiply it by 3 and add 1.
+
+    returns int
+    """
     return ((n * 3) + 1)
 
 
-def collatz_conjecture(n: int, step: int=0, verbose: bool=False):
+def collatz_conjecture(n: int, step: int=0, verbose: bool=False) -> int:
     """Collatz Conjecture function.
 
     Start with a number n > 1.
     Find the number of steps it takes to reach one using the following process:
-    * If n is even, divide it by 2.
-    * If n is odd, multiply it by 3 and add 1.
+      * If n is even, divide it by 2.
+      * If n is odd, multiply it by 3 and add 1.
+
+    step (int) default 0. Number of steps to get to 1.
+    verbose (bool) default False. True to print the iteration steps.
 
     returns steps - number of steps.
     """
