@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 59 python files in this repo.
+There's now 60 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -60,6 +60,7 @@ There's now 59 python files in this repo.
 |<a href="./rotational_cipher.py">rotational_cipher.py</a>|Rotational Cipher.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./sorting/bubble_sort.py">sorting/bubble_sort.py</a>|Bubble Sort.|
+|<a href="./sorting/merge_sort.py">sorting/merge_sort.py</a>|Merge Sort.|
 |<a href="./SuperBowlNumbers.py">SuperBowlNumbers.py</a>|Get the numbers for the superbowl box pools.|
 |<a href="./swapi.py">swapi.py</a>|Python Generator - Crawl Star Wars API (swapi.io).|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
