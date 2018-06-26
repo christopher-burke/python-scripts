@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 60 python files in this repo.
+There's now 62 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -15,6 +15,7 @@ There's now 60 python files in this repo.
 |<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
 |<a href="./bst.py">bst.py</a>|Binary Search Tree.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
+|<a href="./coin_flip.py">coin_flip.py</a>|Coin Flip.|
 |<a href="./collatz_conjecture.py">collatz_conjecture.py</a>|Collatz Conjecture.|
 |<a href="./csv_to_json.py">csv_to_json.py</a>|Convert CSV file to JSON file.|
 |<a href="./db_template.py">db_template.py</a>|SQLite3 database creation.|
@@ -49,6 +50,7 @@ There's now 60 python files in this repo.
 |<a href="./nameo/caller.py">nameo/caller.py</a>|Bingo caller.|
 |<a href="./nameo/drum.py">nameo/drum.py</a>|Bingo Drum class.|
 |<a href="./nameo/main.py">nameo/main.py</a>|Nameo main.|
+|<a href="./next_prime_number.py">next_prime_number.py</a>|Next Prime Number.|
 |<a href="./nums_square_cube.py">nums_square_cube.py</a>|Squares and Cubes for a range of numbers.|
 |<a href="./nyj_live_score.py">nyj_live_score.py</a>|Get the New York Jets schedule and scores of a season from NFL.com.|
 |<a href="./PrintMonths.py">PrintMonths.py</a>|Print the calendars for last, this, and next|
