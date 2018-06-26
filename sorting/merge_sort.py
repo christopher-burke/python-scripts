@@ -27,7 +27,6 @@ def merge_sort(array):
 
     Algorthimic complexity Big O(n lg n).
     """
-
     length = len(array)
     if length <= 1:
         return array
