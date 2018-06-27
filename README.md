@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 63 python files in this repo.
+There's now 62 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -10,8 +10,6 @@ There's now 63 python files in this repo.
 |<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
-|<a href="./bingo_caller.py">bingo_caller.py</a>|Bingo ball generator.|
-|<a href="./bingo_card.py">bingo_card.py</a>|Bingo card generator.|
 |<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
 |<a href="./bst.py">bst.py</a>|Binary Search Tree.|
 |<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
@@ -67,5 +65,6 @@ There's now 63 python files in this repo.
 |<a href="./SuperBowlNumbers.py">SuperBowlNumbers.py</a>|Get the numbers for the superbowl box pools.|
 |<a href="./swapi.py">swapi.py</a>|Python Generator - Crawl Star Wars API (swapi.io).|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
+|<a href="./virtualenv_env_requirements.py">virtualenv_env_requirements.py</a>|List Virtual Environment Python versions.|
 |<a href="./weather.py">weather.py</a>|Weather from weather.gov.|
 |<a href="./weekday_wrapper.py">weekday_wrapper.py</a>|Useful Weekday wrappers.|
