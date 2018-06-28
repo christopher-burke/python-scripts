@@ -2,17 +2,18 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 62 python files in this repo.
+There's now 63 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
 |<a href="./ad/account_expiration.py">ad/account_expiration.py</a>|Account Expiration|
-|<a href="./aes_cipher.py">aes_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
 |<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
 |<a href="./bst.py">bst.py</a>|Binary Search Tree.|
-|<a href="./cipher.py">cipher.py</a>|Cipher for encryption/decryption.|
+|<a href="./cipher/aes_cipher.py">cipher/aes_cipher.py</a>|AES encryption using PyCrypto.|
+|<a href="./cipher/cipher.py">cipher/cipher.py</a>|Cipher for encryption/decryption.|
+|<a href="./cipher/rotational_cipher.py">cipher/rotational_cipher.py</a>|Rotational Cipher.|
 |<a href="./coin_flip.py">coin_flip.py</a>|Coin Flip.|
 |<a href="./collatz_conjecture.py">collatz_conjecture.py</a>|Collatz Conjecture.|
 |<a href="./csv_to_json.py">csv_to_json.py</a>|Convert CSV file to JSON file.|
@@ -43,6 +44,7 @@ There's now 62 python files in this repo.
 |<a href="./make_gif.py">make_gif.py</a>|Create gif from directory.|
 |<a href="./move_folder_files.py">move_folder_files.py</a>|Move files to another folder.|
 |<a href="./mta_service.py">mta_service.py</a>|Python Script to get the status of MTA Service.|
+|<a href="./n_digit_pi.py">n_digit_pi.py</a>|Find Pi to the nth digit.|
 |<a href="./nameo/ball.py">nameo/ball.py</a>|Bingo ball class.|
 |<a href="./nameo/bingo_card.py">nameo/bingo_card.py</a>|Bingo card generator.|
 |<a href="./nameo/caller.py">nameo/caller.py</a>|Bingo caller.|
@@ -57,7 +59,6 @@ There's now 62 python files in this repo.
 |<a href="./readme.py">readme.py</a>|Generate the README.md file a repo.|
 |<a href="./remove_pyc.py">remove_pyc.py</a>|Search and remove pyc files.|
 |<a href="./replace_x.py">replace_x.py</a>|Replace all code letters with X.|
-|<a href="./rotational_cipher.py">rotational_cipher.py</a>|Rotational Cipher.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./sorting/bubble_sort.py">sorting/bubble_sort.py</a>|Bubble Sort.|
 |<a href="./sorting/insertion_sort.py">sorting/insertion_sort.py</a>|Insertion Sort.|
