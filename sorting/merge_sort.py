@@ -5,7 +5,7 @@
 
 
 def merge(a, b):
-    """Function to merge two arrays in order."""
+    """Merge two arrays in order."""
     sorted_array = []
     while len(a) != 0 and len(b) != 0:
         if a[0] < b[0]:
