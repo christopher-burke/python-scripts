@@ -54,6 +54,9 @@ def main():
 
     files = search(p)
 
+    print("Search complete... \n",
+          "Hashing files.")
+
     distinct = {}
     for file_ in files:
         hash = hasher(file_)
