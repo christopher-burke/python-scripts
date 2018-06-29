@@ -10,11 +10,18 @@ import time
 from subprocess import Popen, PIPE
 from datetime import datetime
 
+import logging
+logging.getLogger(name=__name__)
+logging.basicConfig(level=logging.DEBUG)
+# To disable debug, uncomment out bottom line.
+# logging.disable(logging.CRITICAL)
+
 
 def say(phrase):
     """Say the time and phrase, using the macOS 'say' command."""
     now = datetime.now().strftime("%I:%M %p")
     Popen(f"say \"It's {now}! {phrase}\".", shell=True, stdout=PIPE)
+    logging.debug(f"say \"It's {now}! {phrase}\".")
 
 
 def sitdown(interval=600):
