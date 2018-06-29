@@ -6,14 +6,14 @@ import re
 import os
 from calendar import month_name
 
-HOME = os.environ.get('HOME')
-coffee_repo_dir = f'{HOME}/coffee-repo'
+# Set a environment variable to the coffee-repo directory path.
+COFFEE_REPO_DIR = os.environ.get('COFFEE_REPO')
 
 settings = {
     'months': "|".join([month for month in list(month_name) if month]),
     'LINKS_REGEX': r'\* \[.*\)',
-    'README.md': f'{coffee_repo_dir}/README.md',
-    'archive-dir': f'{coffee_repo_dir}/archives',
+    'README.md': f'{COFFEE_REPO_DIR}/README.md',
+    'archive-dir': f'{COFFEE_REPO_DIR}/archives',
 }
 
 settings['MONTHS_REGEX'] = f'###\s+({settings["months"]})(.*)'
