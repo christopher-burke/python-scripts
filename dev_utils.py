@@ -9,10 +9,14 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 
-def say(phrase):
+def say(phrase, time=True):
     """Say the time and phrase, using the macOS 'say' command."""
-    now = datetime.now().strftime("%I:%M %p")
-    Popen(f"say \"It's {now}! {phrase}\".", shell=True, stdout=PIPE)
+    if time:
+        now = datetime.now().strftime("%I:%M %p")
+        now = f"It's {now}! "
+    else:
+        now = ""
+        Popen(f"say \"{now}{phrase}\".", shell=True, stdout=PIPE)
     logging.debug(f"say \"It's {now}! {phrase}\".")
 
 
