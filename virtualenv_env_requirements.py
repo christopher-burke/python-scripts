@@ -14,7 +14,6 @@ env = Environment(loader=file_loader)
 template = env.get_template('virtualenv_details.md')
 
 
-
 def main():
     """Print virtualenv and python version."""
     workon_home = os.environ.get('WORKON_HOME')
@@ -39,22 +38,10 @@ def main():
                     stdout, _ = Popen(command, stdout=PIPE).communicate()
                     stdout = stdout.decode('utf-8')
                     packages = [p.strip() for p in stdout.split()]
-
-
             with open(f'{os.uname()[1].split(".")[0]}.md', 'a') as f:
                 f.write(template.render(virtualenv=virtual_environment,
-                                  version=python_version,
-                                  packages=packages))
-
-            #print(f'## {virtual_environment} ##')
-            #print(f'* Python {python_version}')
-            #print(f'### Packages ###')
-            #for package in packages:
-                #print(f'* {package}')
-            #print()
-
-
-
+                                        version=python_version,
+                                        packages=packages))
 
 
 if __name__ == "__main__":
