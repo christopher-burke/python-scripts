@@ -6,6 +6,13 @@
 import os
 from pathlib import Path
 from subprocess import Popen, PIPE
+from jinja2 import Environment, FileSystemLoader
+
+
+file_loader = FileSystemLoader('templates')
+env = Environment(loader=file_loader)
+template = env.get_template('virtualenv_details.md')
+
 
 
 def main():
@@ -17,13 +24,37 @@ def main():
         if virtualenv.is_dir():
             for python_bin in Path(f'{virtualenv}/bin/').iterdir():
                 if python_bin.name == 'python':
+                    virtual_environment = str(virtualenv).rpartition('/')[-1]
                     command = [f'{python_bin}',
                                '-c',
                                "import sys;print(sys.version.split()[0]);"
                                ]
                     stdout, _ = Popen(command, stdout=PIPE).communicate()
                     stdout = stdout.decode('utf-8')
-                    print(f'{python_bin} uses Python {stdout.strip()}.')
+                    python_version = stdout.strip()
+                if python_bin.name == 'pip':
+                    command = [f'{python_bin}',
+                               'freeze'
+                               ]
+                    stdout, _ = Popen(command, stdout=PIPE).communicate()
+                    stdout = stdout.decode('utf-8')
+                    packages = [p.strip() for p in stdout.split()]
+
+
+            with open(f'{os.uname()[1].split(".")[0]}.md', 'a') as f:
+                f.write(template.render(virtualenv=virtual_environment,
+                                  version=python_version,
+                                  packages=packages))
+
+            #print(f'## {virtual_environment} ##')
+            #print(f'* Python {python_version}')
+            #print(f'### Packages ###')
+            #for package in packages:
+                #print(f'* {package}')
+            #print()
+
+
+
 
 
 if __name__ == "__main__":
