@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-""" Site Checker.
+"""Site Checker.
 
 Site Checker with Time Scheduling – An application that attempts to
 connect to a website or server every so many minutes or a given
