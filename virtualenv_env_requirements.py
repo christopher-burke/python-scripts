@@ -38,7 +38,7 @@ def main():
                     stdout, _ = Popen(command, stdout=PIPE).communicate()
                     stdout = stdout.decode('utf-8')
                     packages = [p.strip() for p in stdout.split()]
-            with open(f'{os.uname()[1].split(".")[0]}.md', 'a') as f:
+            with open(f'virtualenvs-{os.uname()[1].split(".")[0]}.md', 'a') as f:
                 f.write(template.render(virtualenv=virtual_environment,
                                         version=python_version,
                                         packages=packages))

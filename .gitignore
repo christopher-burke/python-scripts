@@ -109,3 +109,6 @@ venv.bak/
 #untracked ideas
 
 /untracked_ideas
+
+# Virtualenv list files.
+virtualenvs-*.md
