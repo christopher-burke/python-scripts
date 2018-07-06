@@ -69,14 +69,6 @@ def run():
     for url in list(urls):
         print(url)
 
-    # readme_content = read_readme(settings['README.md'])
-    # month, year, urls = parse_readme(readme_content)
-    # month_index = month_num(month)
-    # archive_filename = f'{year.strip()}-{month_index:0>2d}.md'
-    # archive_full_path = f'{settings["archive-dir"]}/{archive_filename}'
-    # archive_content = list([f'## {month}{year} ##\n', *urls])
-    # write_archive(archive_full_path, archive_content)
-
 
 def main():
     """Run the program."""
