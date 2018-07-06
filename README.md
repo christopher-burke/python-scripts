@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 64 python files in this repo.
+There's now 67 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -15,6 +15,7 @@ There's now 64 python files in this repo.
 |<a href="./cipher/cipher.py">cipher/cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./cipher/rotational_cipher.py">cipher/rotational_cipher.py</a>|Rotational Cipher.|
 |<a href="./coffee_repo_archive.py">coffee_repo_archive.py</a>|Archive Coffee-Repo list in README.md.|
+|<a href="./coffee_repo_master.py">coffee_repo_master.py</a>|Create Coffee-Repo Master list.|
 |<a href="./coin_flip.py">coin_flip.py</a>|Coin Flip.|
 |<a href="./collatz_conjecture.py">collatz_conjecture.py</a>|Collatz Conjecture.|
 |<a href="./csv_to_json.py">csv_to_json.py</a>|Convert CSV file to JSON file.|
@@ -29,6 +30,7 @@ There's now 64 python files in this repo.
 |<a href="./distinct_file_finder.py">distinct_file_finder.py</a>|Distinct Files in directory.|
 |<a href="./divisors.py">divisors.py</a>|Divisors: Find all the divisors of a number.|
 |<a href="./dug_dice.py">dug_dice.py</a>|Dug Dice.|
+|<a href="./fantasy_keepers.py">fantasy_keepers.py</a>|Get Fantasy Baseball Keepers from years past.|
 |<a href="./fantasy_matchup_week.py">fantasy_matchup_week.py</a>|Week number matchups for Fantasy Baseball.|
 |<a href="./fibonacci.py">fibonacci.py</a>|Fibonacci.|
 |<a href="./find_all_links.py">find_all_links.py</a>|Find all links from url.|
@@ -60,6 +62,7 @@ There's now 64 python files in this repo.
 |<a href="./readme.py">readme.py</a>|Generate the README.md file a repo.|
 |<a href="./remove_pyc.py">remove_pyc.py</a>|Search and remove pyc files.|
 |<a href="./replace_x.py">replace_x.py</a>|Replace all code letters with X.|
+|<a href="./site_checker.py">site_checker.py</a>|Site Checker.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./sorting/bubble_sort.py">sorting/bubble_sort.py</a>|Bubble Sort.|
 |<a href="./sorting/insertion_sort.py">sorting/insertion_sort.py</a>|Insertion Sort.|
