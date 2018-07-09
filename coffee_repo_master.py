@@ -13,7 +13,7 @@ COFFEE_REPO_DIR = os.environ.get('COFFEE_REPO')
 
 settings = {
 
-    'LINKS_REGEX': r'\* \[.*\)',
+    'LINKS_REGEX': r'\* \[.*\]\(.*\)',
     'archive-dir': f'{COFFEE_REPO_DIR}/archives',
     'master-dir': f'{COFFEE_REPO_DIR}/master',
 }
