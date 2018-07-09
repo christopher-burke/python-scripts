@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 67 python files in this repo.
+There's now 68 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -61,6 +61,7 @@ There's now 67 python files in this repo.
 |<a href="./readme.py">readme.py</a>|Generate the README.md file a repo.|
 |<a href="./remove_pyc.py">remove_pyc.py</a>|Search and remove pyc files.|
 |<a href="./replace_x.py">replace_x.py</a>|Replace all code letters with X.|
+|<a href="./sieve_of_eratosthenes.py">sieve_of_eratosthenes.py</a>|Sieve of Eratosthenes.|
 |<a href="./site_checker.py">site_checker.py</a>|Site Checker.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./sorting/bubble_sort.py">sorting/bubble_sort.py</a>|Bubble Sort.|
