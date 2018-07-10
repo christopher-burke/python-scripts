@@ -2,8 +2,6 @@
 
 """NFL Quarterback Rating."""
 
-from __future__ import division, print_function
-
 
 class Nfl_Qb_Rating(object):
     """Nfl_Qb_Rating class."""
