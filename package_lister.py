@@ -6,17 +6,20 @@
 import sys
 import pathlib
 import re
+from collections import Counter
 
 
-def find_imports(file_content: str) -> set:
+def find_imports(file_content: str, distinct: bool) -> set:
     """Find the imports in python file.
 
     Search the `import ..` and `from .. import ..` for package names.
     """
     IMPORT_REGEX = r'^[\s]*(?:from|import) (\w*)(?:\.*.*)*$'
     imports = re.findall(IMPORT_REGEX, file_content, re.I | re.M)
-
-    return set(imports)
+    if distinct:
+        return set(imports)
+    else:
+        return imports
 
 
 def search_dir(directory: str) -> str:
@@ -31,17 +34,36 @@ def search_dir(directory: str) -> str:
         yield path
 
 
-def main(directory: str):
+def package_collection(distinct: bool):
+    """Return the package collection, set or list."""
+    if distinct:
+        package = set()
+    else:
+        package = []
+    return package
+
+
+def print_results(x):
+    """Print results."""
+    print(x)
+
+
+def main(directory: str, distinct: bool):
     """Find all packages and print to console."""
-    package_set = set()
+    packages = package_collection(distinct)
     for path in search_dir(directory):
         if path.as_posix().rpartition('.')[-1] == 'py':
             with open(path.as_posix(), 'r') as f:
                 file_content = "".join(f.readlines())
-            package_set = package_set | find_imports(file_content)
-    print(sorted(package_set, key=lambda x: x.lower()))
+            if distinct:
+                packages = packages | find_imports(file_content, distinct)
+            else:
+                packages.extend(find_imports(file_content, distinct))
+    print_results(sorted(packages, key=lambda x: x.lower()))
+    print_results(Counter(packages).most_common())
 
 
 if __name__ == "__main__":
     directory = sys.argv[1]
-    main(directory)
+    distinct = False
+    main(directory, distinct)
