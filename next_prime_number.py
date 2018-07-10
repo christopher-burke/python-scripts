@@ -20,6 +20,8 @@ def factors(n):
 
 def prime(n):
     """Return True if x is prime, False otherwise."""
+    if n == 2:
+        return True
     if n % 2 == 0:
         return False
     if len(factors(n)) == 2:
