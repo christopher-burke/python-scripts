@@ -13,13 +13,10 @@ def find_imports(file_content: str) -> set:
 
     Search the `import ..` and `from .. import ..` for package names.
     """
-    IMPORT_REGEX = r'^[\s]*import (\w*)[\.\w]*$'
-    FROM_REGEX = r'^[\s]*from (\w*)[\.\w]* import \w*[\.\w]*$'
-
+    IMPORT_REGEX = r'^[\s]*(?:from|import) (\w*)(?:\.*.*)*$'
     imports = re.findall(IMPORT_REGEX, file_content, re.I | re.M)
-    from_imports = re.findall(FROM_REGEX, file_content, re.I | re.M)
 
-    return set(imports + from_imports)
+    return set(imports)
 
 
 def search_dir(directory: str) -> str:
