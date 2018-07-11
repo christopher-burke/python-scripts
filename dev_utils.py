@@ -3,6 +3,7 @@
 """Collection of Utilities."""
 
 import requests
+from shlex import quote, split
 from subprocess import Popen, PIPE
 from datetime import datetime
 import logging
@@ -11,18 +12,21 @@ logging.basicConfig(level=logging.DEBUG)
 
 def say(phrase, time=True):
     """Say the time and phrase, using the macOS 'say' command."""
+    command = None
     if time:
         now = datetime.now().strftime("%I:%M %p")
         now = f"It's {now}! "
     else:
         now = ""
-        Popen(f"say \"{now}{phrase}\".", shell=True, stdout=PIPE)
-    logging.debug(f"say \"It's {now}! {phrase}\".")
+        command = f"say {quote(now)}{quote(phrase)}"
+        Popen(command, shell=True, stdout=PIPE)
+    logging.debug(command)
 
 
 def shell(*args):
     """Execute shell commands and return stdout."""
-    process = Popen(args, stdout=PIPE)
+    command = split(args)
+    process = Popen(command, stdout=PIPE)
     stdout, out = process.communicate()
     return stdout
 
