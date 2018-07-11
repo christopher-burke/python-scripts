@@ -2,11 +2,15 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 70 python files in this repo.
+There's now 74 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
 |<a href="./ad/account_expiration.py">ad/account_expiration.py</a>|Account Expiration|
+|<a href="./baseball/__init__.py">baseball/__init__.py</a>|No docstring provided.|
+|<a href="./baseball/batter.py">baseball/batter.py</a>|No docstring provided.|
+|<a href="./baseball/pitcher.py">baseball/pitcher.py</a>|No docstring provided.|
+|<a href="./baseball/player.py">baseball/player.py</a>|No docstring provided.|
 |<a href="./basic_logging.py">basic_logging.py</a>|Basic Logging template.|
 |<a href="./binary_search.py">binary_search.py</a>|Binary Search Algorithm implmentation.|
 |<a href="./breathe.py">breathe.py</a>|Rhythmic breathing.|
