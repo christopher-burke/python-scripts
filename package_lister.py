@@ -14,8 +14,9 @@ def find_imports(file_content: str, distinct: bool) -> set:
 
     Search the `import ..` and `from .. import ..` for package names.
     """
-    IMPORT_REGEX = r'^[\s]*(?:from|import) (\w*)(?:\.*.*)*$'
+    IMPORT_REGEX = r'^[\s]*(?:import|(?P<type>from))\s+(?P<module>\w*)(?(type)\s+import\s+(?:.*)|(?:.*))$'
     imports = re.findall(IMPORT_REGEX, file_content, re.I | re.M)
+    imports = [_[1] for _ in imports]
     if distinct:
         return set(imports)
     else:
@@ -65,5 +66,5 @@ def main(directory: str, distinct: bool):
 
 if __name__ == "__main__":
     directory = sys.argv[1]
-    distinct = False
+    distinct = True
     main(directory, distinct)
