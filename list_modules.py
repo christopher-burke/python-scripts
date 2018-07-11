@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-"""Package lister."""
+"""List modules used in Python files."""
 
 import sys
 import pathlib
