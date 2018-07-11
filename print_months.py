@@ -5,7 +5,7 @@
 month to display on the desktop."""
 
 import calendar
-import color
+from termcolor import colored
 from datetime import datetime
 
 
@@ -30,7 +30,7 @@ class GeekToolCalendar:
 
     def color(self, today_string):
         """Pass."""
-        return color.colored(today_string, 'grey', 'on_yellow')
+        return colored(today_string, 'grey', 'on_yellow')
 
     def return_print_month(self, year, month):
         """Generator for the last, this and next month."""
