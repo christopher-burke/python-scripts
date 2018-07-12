@@ -33,7 +33,7 @@ class GeekToolCalendar:
         return colored(today_string, 'grey', 'on_yellow')
 
     def return_print_month(self, year, month):
-        """Generator for the last, this and next month."""
+        """Yield the last, this and next month."""
         pcal = calendar.month
         for mon in range(month - 1, month + 2):
             if mon == 0:
@@ -69,11 +69,7 @@ class GeekToolCalendar:
 
     def print_month(self, yr, mon, multi=True, pass_mon=1, future_mon=1):
         """Print the last, this and next month."""
-        # Get the printed month function from calendar class.
         pcal = calendar.month
-        # Get the matrix month function from claendar class.
-        mcal = calendar.monthcalendar
-        # To get the Correct last and next month when the current month is December or Janurary.
         if multi:
             for test_mon in range(mon - (pass_mon), mon + (future_mon + 1)):
                 if test_mon == 0:

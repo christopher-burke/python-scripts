@@ -7,7 +7,7 @@ from shlex import quote, split
 from subprocess import Popen, PIPE
 from datetime import datetime
 import logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 
 
 def say(phrase, time=True):
@@ -25,8 +25,10 @@ def say(phrase, time=True):
 
 def shell(*args):
     """Execute shell commands and return stdout."""
-    command = split(args)
-    process = Popen(command, stdout=PIPE)
+    logging.debug(args)
+    command = args
+    logging.debug(command)
+    process = Popen(command, shell=True, stdout=PIPE)
     stdout, out = process.communicate()
     return stdout
 
