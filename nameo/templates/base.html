@@ -1,0 +1,48 @@
+<head>
+    <link rel="stylesheet" rev="stylesheet" href="bingo-card.css" />
+
+    <style>
+        .card {
+            float: left;
+            margin: 10 10 10 10;
+        }
+
+
+        body {
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+        }
+
+        h1,
+        th {
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 2px #666 solid;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        #free {
+            background-color: #F66;
+        }
+    </style>
+
+</head>
+
+<div class="" style="margin: 0 auto;width: 75%;">
+    {% for card in cards %} {% include 'card.html' %} {% endfor %}
+</div>
