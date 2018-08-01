@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 78 python files in this repo.
+There's now 79 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -54,6 +54,7 @@ There's now 78 python files in this repo.
 |<a href="./move_folder_files.py">move_folder_files.py</a>|Move files to another folder.|
 |<a href="./mta_service.py">mta_service.py</a>|Python Script to get the status of MTA Service.|
 |<a href="./n_digit_pi.py">n_digit_pi.py</a>|Find Pi to the nth digit.|
+|<a href="./nameo/app.py">nameo/app.py</a>|No docstring provided.|
 |<a href="./nameo/ball.py">nameo/ball.py</a>|Bingo ball class.|
 |<a href="./nameo/bingo_card.py">nameo/bingo_card.py</a>|Bingo card generator.|
 |<a href="./nameo/caller.py">nameo/caller.py</a>|Bingo caller.|
