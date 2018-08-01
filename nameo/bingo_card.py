@@ -10,30 +10,33 @@
         * "O" (numbers 61–75)
 """
 
-from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import A4
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.lib import colors
-
 from itertools import permutations
 from pprint import pprint
 from random import choice
-from bingo_caller import bingo_ball, bingo_balls
+from ball import bingo_balls
+from jinja2 import Environment, FileSystemLoader
 
-def free_space(t : tuple):
-    l = list(t)
-    l.insert(2, 'FREE SPACE')
-    t = tuple(l)
-    return t
+
+file_loader = FileSystemLoader('templates')
+env = Environment(loader=file_loader)
+template = env.get_template('base.html')
+
+
+def free_space(column: tuple) -> tuple:
+    """Add Bingo FREE space."""
+    column = list(column)
+    column.insert(2, 'FREE SPACE')
+    column = tuple(column)
+    return column
+
 
 if __name__ == "__main__":
     balls = [ball for ball in bingo_balls()]
     b_balls = [b for b in balls if b.letter is 'B']
-    i_balls = [b for b in balls if b.letter is 'I']
-    n_balls = [b for b in balls if b.letter is 'N']
-    g_balls = [b for b in balls if b.letter is 'G']
-    o_balls = [b for b in balls if b.letter is 'O']
+    i_balls = [i for i in balls if i.letter is 'I']
+    n_balls = [n for n in balls if n.letter is 'N']
+    g_balls = [g for g in balls if g.letter is 'G']
+    o_balls = [o for o in balls if o.letter is 'O']
 
     b_columns = list(permutations(b_balls, 5))
     i_columns = list(permutations(i_balls, 5))
@@ -44,7 +47,7 @@ if __name__ == "__main__":
     hashes = []
     cards = []
 
-    for i in range(0,200):
+    for i in range(0, 200):
         card = (choice(b_columns),
                 choice(i_columns),
                 free_space(choice(n_columns)),
@@ -57,3 +60,6 @@ if __name__ == "__main__":
         else:
             hashes.append(card_hash)
             cards.append([e for t in card for e in t])
+
+    with open(f'bingo-card.html', 'a') as f:
+        f.write(template.render(cards=cards))
