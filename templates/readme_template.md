@@ -6,5 +6,5 @@ There's now {{scripts|length}} python file{%if scripts|length > 1%}s{% endif %} 
 
 | Script  | DocString |
 | ------------- | ------------- |
-{% for x in scripts %}|<a href="./{{x.name}}">{{x.name}}</a>|{{x.docstring}}|
+{% for x in scripts %}|<a href="./{{x.name}}">{{x.display}}</a>|{{x.docstring}}|
 {% endfor %}
