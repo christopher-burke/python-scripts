@@ -13,19 +13,28 @@ notice on screen.
 """
 
 # Third Part Packages
+
+import sys
+import time
+
+
+def import_error(package):
+    """Import error message."""
+    return f'{package.capitalize()} package is required.' +\
+        f' Install {package} with pip:' + \
+        f' `pip install {package}`.'
+
+
 try:
     import requests
 except ImportError:
-    print('Request package is required. Install requests with pip: `pip install requests`.')
+    print(import_error('request'))
+
 
 try:
     import schedule
 except ImportError:
-    print('Schedule package is required. Install schedule with pip: `pip install schedule`.')
-
-
-import sys
-import time
+    print(import_error('schedule'))
 
 
 class MessageOutput:
@@ -38,6 +47,7 @@ class MessageOutput:
         raise NotImplementedError
 
     def alert():
+        """Alert method."""
         raise NotImplementedError
 
     def terminal_output(self, url, status):
@@ -67,8 +77,10 @@ class SiteChecker:
         return c
 
 
-def scheduler(url,seconds, test=False):
-    """Using `schedule` run checker on an interval.
+def scheduler(url, seconds, test=False):
+    """Run checker on a schedule.
+
+    Using `schedule` run checker on an interval.
 
     Run forever, until KeyboardInterrupt or Process Termination.
     """
@@ -77,11 +89,9 @@ def scheduler(url,seconds, test=False):
     status = sc.check
     if test:
         status = sc.check_test
-    else:
-        status = sc.check
     schedule.every(seconds).seconds.do(job_func=mo.terminal_output,
                                        url=url,
-                                       status=sc.check)
+                                       status=status)
     while True:
         schedule.run_pending()
         time.sleep(1)
