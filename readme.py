@@ -88,11 +88,7 @@ def main():
     scripts = list(map(partial(process, p), scripts))
 
     for script in scripts:
-        script.update((
-            key, value.replace('_', '\_'))
-            for key, value in script.items()
-            if key == 'name'
-        )
+        script['display'] = script['name'].replace('_', '\_')
     write_readme(scripts)
 
 
