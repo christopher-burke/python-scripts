@@ -10,7 +10,7 @@ from random import getrandbits
 from collections import defaultdict
 
 
-def create_coin(coin: tuple=('HEADS', 'TAILS',)):
+def create_coin(coin: tuple = ('HEADS', 'TAILS',)):
     """Define a your coin.
 
     coin - tuple with 2 values. Default (heads, tails,)
