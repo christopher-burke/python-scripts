@@ -17,7 +17,7 @@ def load_template():
     return template
 
 
-def git_ls_tree(branch: str='master'):
+def git_ls_tree(branch: str = 'master'):
     """Return the git ls-tree command."""
     branch = quote(branch)
     return f"git ls-tree -r {branch} --name-only"
@@ -86,6 +86,13 @@ def main():
     files = tracked_files()
     scripts = search_dir(p, path, files, '.py')
     scripts = list(map(partial(process, p), scripts))
+
+    for script in scripts:
+        script.update((
+            key, value.replace('_', '\_'))
+            for key, value in script.items()
+            if key == 'name'
+        )
     write_readme(scripts)
 
 
