@@ -25,7 +25,7 @@ def flip():
 
 
 def main(times):
-    """Flip a coin main fucntion."""
+    """Flip a coin main function."""
     coin = create_coin()
     RESULTS = defaultdict(lambda: 0)
 
