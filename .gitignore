@@ -112,3 +112,7 @@ venv.bak/
 
 # Virtualenv list files.
 virtualenvs-*.md
+
+# Editor folders
+.vscode
+.atom
