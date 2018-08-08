@@ -16,6 +16,19 @@
                 margin-right: auto;
             }
 
+
+            .game{
+                float: right;
+                height: 300px;
+                width: 300px;
+
+            }
+            .game > img {
+                height:45%;
+                width: 50%;
+                position: relative;
+            }
+
             .card-letter, .card-number, .ball{
                 text-align: center;
                 position: relative;
@@ -29,7 +42,7 @@
 
             }
 
-            .card-letter:active, .card-number:active, .ball:active{
+            .card-letter:hover, .card-number:hover, .ball:hover{
                 transform: rotateY(180deg);
             }
 
@@ -101,6 +114,14 @@
                 <h1>{{ball}}</h1>
             </div>
         </div>
+
+        <div class="game">
+
+            {{game | safe}}
+
+        </div>
+
+
     </div>
 
     <table class="board">

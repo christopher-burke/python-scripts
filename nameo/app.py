@@ -19,6 +19,12 @@ def caller():
 called = []
 bingo_balls = []
 bingo_caller = caller()
+game_imgs = {
+    '1' : '<img src="/static/images/bingo-game1d.gif"><img src="/static/images/bingo-game1r.gif"><img src="/static/images/bingo-game1v.gif">',
+    '2' : '<img src="/static/images/bingo-game2.gif">',
+    '3' : '<img src="/static/images/bingo-game3.png">',
+    '4' : '<img src="/static/images/bingo-game4.png">',
+    }
 
 
 # Routes
@@ -38,9 +44,10 @@ def reset():
     return "Bingo Caller Reset."
 
 
-@app.route('/game')
-def game():
+@app.route('/game/<num>')
+def game(num=1):
     global called
+    global game_imgs
     try:
         ball = next(bingo_caller)
     except StopIteration:
@@ -52,8 +59,9 @@ def game():
     return render_template(
                             'board.html',
                             ball=ball,
-                            called=called,
-                            called_css_ids=called_css_ids
+                            called=called[::-1],
+                            called_css_ids=called_css_ids,
+                            game=game_imgs[num]
                           )
 
 
@@ -67,7 +75,7 @@ def view():
         called_css_ids = 'None'
     return render_template('board.html',
                             ball=ball,
-                            called=called,
+                            called=called[::-1],
                             called_css_ids=called_css_ids)
 
 
