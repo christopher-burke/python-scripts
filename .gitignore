@@ -116,3 +116,6 @@ virtualenvs-*.md
 # Editor folders
 .vscode
 .atom
+
+# Items
+nameo/static/*
