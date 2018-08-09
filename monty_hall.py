@@ -58,11 +58,18 @@ class MontyHallGame:
     def main(self):
         """Run game."""
         win = self.make_a_deal()
-        return win
 
         if self.DEBUG:
             print(self.DOORS)
 
+        return win
+
 
 if __name__ == "__main__":
     mhg = MontyHallGame()
+
+    results = {'win': 0, 'loss': 0}
+    for x in range(1, 201):
+        mhg = MontyHallGame()
+        if mhg.win:
+            results
