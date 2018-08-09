@@ -16,7 +16,7 @@ settings = {
     'archive-dir': f'{COFFEE_REPO_DIR}/archives',
 }
 
-settings['MONTHS_REGEX'] = f'###\s+({settings["months"]})(.*)'
+settings['MONTHS_REGEX'] = fr'###\s+({settings["months"]})(.*)'
 
 
 def month_num(month):
