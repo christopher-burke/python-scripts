@@ -3,7 +3,6 @@
 """Script to tell me to Sitdown and Standup throughout the day."""
 
 
-import threading
 import signal
 import sys
 import time
@@ -45,7 +44,8 @@ class PeriodicEvent:
     Signal module is used to handle the termination.
 
     Credit Source:
-    * https://www.reddit.com/r/Python/comments/2cgirl/best_way_for_an_everrunning_loop/cjg7n59/
+    * https://www.reddit.com/r/Python/comments/2cgirl/\
+    best_way_for_an_everrunning_loop/cjg7n59/
 
     """
 

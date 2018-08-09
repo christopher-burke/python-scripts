@@ -6,7 +6,7 @@ from time import sleep
 import sys
 
 
-def breathe(inhale_time: int=4, exhale_time: int=6):
+def breathe(inhale_time: int = 4, exhale_time: int = 6):
     """Breathe in and out at a set pace.
 
     inhale_time int time in seconds.

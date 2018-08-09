@@ -25,7 +25,7 @@ def second_part(txt):
 
 
 def third_part(txt):
-    """Third locial part for password."""
+    """Third logical part for password."""
     m, d, y = txt.split('/')
     return f'{y.zfill(4)}{m.zfill(2)}{d.zfill(2)}'
 
