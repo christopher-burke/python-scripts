@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 84 python files in this repo.
+There's now 85 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -42,6 +42,7 @@ There's now 84 python files in this repo.
 |<a href="./find_files.py">find\_files.py</a>|Find all files matching a pattern.|
 |<a href="./find_local_ips.py">find\_local\_ips.py</a>|Find all local ip addresses in an ip network.|
 |<a href="./fizz_buzz.py">fizz\_buzz.py</a>|FizzBuzz Test.|
+|<a href="./flatten.py">flatten.py</a>|Flatten iterable.|
 |<a href="./hour_chime.py">hour\_chime.py</a>|Play sound file at the top of every hour.|
 |<a href="./html_decorators.py">html\_decorators.py</a>|HTML Decorators Example.|
 |<a href="./ifttt/__init__.py">ifttt/\_\_init\_\_.py</a>|No docstring provided.|
