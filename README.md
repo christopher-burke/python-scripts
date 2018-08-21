@@ -2,11 +2,12 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 88 python files in this repo.
+There's now 89 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
 |<a href="./ad/account_expiration.py">ad/account\_expiration.py</a>|Account Expiration|
+|<a href="./article_fetcher.py">article\_fetcher.py</a>|Get Articles from website urls.|
 |<a href="./baseball/__init__.py">baseball/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./baseball/batter.py">baseball/batter.py</a>|No docstring provided.|
 |<a href="./baseball/pitcher.py">baseball/pitcher.py</a>|No docstring provided.|
@@ -29,7 +30,7 @@ There's now 88 python files in this repo.
 |<a href="./delta_date.py">delta\_date.py</a>|Return the delta of the current date.|
 |<a href="./demo/abc_demo.py">demo/abc\_demo.py</a>|Abstract Base Class (ABC) testing.|
 |<a href="./demo/aiohttp_demo.py">demo/aiohttp\_demo.py</a>|Demo of aiohttp package.|
-|<a href="./demo/asyncio_demo.py">demo/asyncio\_demo.py</a>|Demo on asyncio.|
+|<a href="./demo/asyncio_demo.py">demo/asyncio\_demo.py</a>|Demo on asyncio. Get Articles from website urls.|
 |<a href="./demo/asyncio_demo_2.py">demo/asyncio\_demo\_2.py</a>|Asyncio demo finding next prime numbers for a list.|
 |<a href="./demo/difflib_demo.py">demo/difflib\_demo.py</a>|Example of difflib.|
 |<a href="./demo/itertools_demo.py">demo/itertools\_demo.py</a>|Itertools demo.|
