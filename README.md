@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 90 python files in this repo.
+There's now 91 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -36,6 +36,7 @@ There's now 90 python files in this repo.
 |<a href="./demo/itertools_demo.py">demo/itertools\_demo.py</a>|Itertools demo.|
 |<a href="./demo/singledispatch_demo.py">demo/singledispatch\_demo.py</a>|Sample of functools.singledispatch.|
 |<a href="./dev_utils.py">dev\_utils.py</a>|Collection of Utilities.|
+|<a href="./dict_utils.py">dict\_utils.py</a>|Dictonary Utils.|
 |<a href="./distinct_file_finder.py">distinct\_file\_finder.py</a>|Distinct Files in directory.|
 |<a href="./divisors.py">divisors.py</a>|Divisors: Find all the divisors of a number.|
 |<a href="./dug_dice.py">dug\_dice.py</a>|Dug Dice.|
