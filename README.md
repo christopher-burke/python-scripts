@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 91 python files in this repo.
+There's now 92 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -28,6 +28,7 @@ There's now 91 python files in this repo.
 |<a href="./db_template.py">db\_template.py</a>|SQLite3 database creation.|
 |<a href="./default_pw_generator.py">default\_pw\_generator.py</a>|Default initial password generator.|
 |<a href="./delta_date.py">delta\_date.py</a>|Return the delta of the current date.|
+|<a href="./demo/__init__.py">demo/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./demo/abc_demo.py">demo/abc\_demo.py</a>|Abstract Base Class (ABC) testing.|
 |<a href="./demo/aiohttp_demo.py">demo/aiohttp\_demo.py</a>|Demo of aiohttp package.|
 |<a href="./demo/asyncio_demo.py">demo/asyncio\_demo.py</a>|Demo on asyncio. Get Articles from website urls.|
