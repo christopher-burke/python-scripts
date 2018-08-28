@@ -119,3 +119,5 @@ virtualenvs-*.md
 
 # Items
 nameo/static/*
+
+/output
