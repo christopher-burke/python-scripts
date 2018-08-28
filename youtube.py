@@ -14,7 +14,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def video_id(url):
+def video_id(url: str) -> str:
     """Return the YouTube Video Id from URL."""
     REGEX = '(?:https:\/\/www.youtube.com\/watch\?v=)([^&\n\r]*)'
     youtube_id = re.match(REGEX, url, re.I | re.M)
@@ -24,24 +24,24 @@ def video_id(url):
         raise Exception('Not a valid YouTube url.')
 
 
-def title(url):
+def title(url: str) -> str:
     """Return the title of the YouTube video."""
     r = requests.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
     return soup.find('title').text
 
 
-def shorten_url(youtube_id):
+def shorten_url(youtube_id: str) -> str:
     """Return the shortened url for YouTube video."""
     return f'https://youtu.be/{youtube_id}'
 
 
-def markdown_list(url, title):
+def markdown_list(url: str, title: str) -> str:
     """Return the Markdown list syntax for YouTube video."""
     return f'* [{title}]({url})'
 
 
-def main(url):
+def main(url: str) -> str:
     """Run the program."""
     try:
         youtube_id = video_id(url)

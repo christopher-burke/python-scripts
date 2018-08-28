@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup as soup
 # XML weather observations feed.
 
 
-def main(feed="http://w1.weather.gov/xml/current_obs/"):
+def main(feed="http://w1.weather.gov/xml/current_obs/": str) -> str:
     """Weather feed from weather.gov."""
     r = requests.get(feed)
     root = soup(r.text)

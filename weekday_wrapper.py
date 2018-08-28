@@ -7,12 +7,12 @@ from datetime import date
 from calendar import day_name
 
 
-def week_num():
+def week_num() -> int:
     """Return the current week number."""
     return date.today().isocalendar()[1]
 
 
-def weekday_num():
+def weekday_num() -> int:
     """Return the current weekday number.
 
     Using the Python datetime: 0 is Sunday, 6 is Saturday.
@@ -21,7 +21,7 @@ def weekday_num():
     return weekday_num
 
 
-def weekday():
+def weekday() -> str:
     """Return the currecnt weekday name."""
     weekday_num = date.today().isocalendar()[2]
     return day_name[weekday_num]

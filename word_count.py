@@ -8,7 +8,7 @@ from string import punctuation
 from collections import Counter
 
 
-def main(text):
+def main(text: str) -> str:
     """Print the count and most common 3 words.
 
     All strings are converted to lowercase for counting.
@@ -20,8 +20,8 @@ def main(text):
                             f'{a[0]} {a[1]}'
                             for a in
                             Counter(
-                                    map(str.lower, text.split())
-                                   ).most_common(3)
+                                map(str.lower, text.split())
+                            ).most_common(3)
                             ])
     return f'There are {length} words ({most_common}).'
 
