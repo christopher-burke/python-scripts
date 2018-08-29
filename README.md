@@ -92,8 +92,8 @@ There's now 98 python files in this repo.
 |<a href="./sorting/merge_sort.py">sorting/merge\_sort.py</a>|Merge Sort.|
 |<a href="./superbowl_numbers.py">superbowl\_numbers.py</a>|Get the numbers for the superbowl box pools.|
 |<a href="./swapi.py">swapi.py</a>|Python Generator - Crawl Star Wars API (swapi.io).|
-|<a href="./tests/__init__.py">tests/\_\_init\_\_.py</a>|No docstring provided.|
-|<a href="./tests/test_circles.py">tests/test\_circles.py</a>|No docstring provided.|
+|<a href="./tests/__init__.py">tests/\_\_init\_\_.py</a>|Unittests for library.|
+|<a href="./tests/test_circles.py">tests/test\_circles.py</a>|Unittest for circles.py.|
 |<a href="./tests/test_divisors_unittest.py">tests/test\_divisors\_unittest.py</a>|No docstring provided.|
 |<a href="./tests/test_two_sums_unittest.py">tests/test\_two\_sums\_unittest.py</a>|No docstring provided.|
 |<a href="./tests/test_word_count.py">tests/test\_word\_count.py</a>|No docstring provided.|

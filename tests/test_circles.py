@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+"""Unittest for circles.py."""
+
 
 import os
 import sys
@@ -11,8 +15,10 @@ from math import pi as π
 
 
 class TestCircleArea(unittest.TestCase):
+    """Unittest TestCase for Circle."""
+
     def test_area(self):
-        """Test areas. radius >= 0"""
+        """Test areas. radius >= 0."""
         self.assertAlmostEqual(circle_area(1), π)
         self.assertAlmostEqual(circle_area(radius=1), π)
         self.assertAlmostEqual(circle_area(0), 0)
@@ -30,8 +36,10 @@ class TestCircleArea(unittest.TestCase):
 
 
 class TestCircleCircumference(unittest.TestCase):
+    """Unittest TestCase for Circle."""
+
     def test_circumference(self):
-        """Test circumference radius >= 0"""
+        """Test circumference radius >= 0."""
         self.assertAlmostEqual(
             circle_circumference(1), 6.28319, places=5)
         self.assertAlmostEqual(

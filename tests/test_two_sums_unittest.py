@@ -1,10 +1,4 @@
-import os
-import sys
 import unittest
-
-add_path = os.path.dirname(os.path.dirname((os.path.realpath(__file__))))
-sys.path.insert(0, add_path)
-
 from two_sum import two_sums, two_sums_brute_force
 
 
