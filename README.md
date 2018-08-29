@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 95 python files in this repo.
+There's now 97 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -19,6 +19,7 @@ There's now 95 python files in this repo.
 |<a href="./cipher/aes_cipher.py">cipher/aes\_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./cipher/cipher.py">cipher/cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./cipher/rotational_cipher.py">cipher/rotational\_cipher.py</a>|Rotational Cipher.|
+|<a href="./circles.py">circles.py</a>|No docstring provided.|
 |<a href="./coffee_repo_archive.py">coffee\_repo\_archive.py</a>|Archive Coffee-Repo list in README.md.|
 |<a href="./coffee_repo_master.py">coffee\_repo\_master.py</a>|Create Coffee-Repo Master list.|
 |<a href="./coin_flip.py">coin\_flip.py</a>|Coin Flip.|
@@ -92,6 +93,7 @@ There's now 95 python files in this repo.
 |<a href="./superbowl_numbers.py">superbowl\_numbers.py</a>|Get the numbers for the superbowl box pools.|
 |<a href="./swapi.py">swapi.py</a>|Python Generator - Crawl Star Wars API (swapi.io).|
 |<a href="./tests/__init__.py">tests/\_\_init\_\_.py</a>|No docstring provided.|
+|<a href="./tests/test_circles.py">tests/test\_circles.py</a>|No docstring provided.|
 |<a href="./tests/test_divisors_unittest.py">tests/test\_divisors\_unittest.py</a>|No docstring provided.|
 |<a href="./tests/test_two_sums_unittest.py">tests/test\_two\_sums\_unittest.py</a>|No docstring provided.|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
