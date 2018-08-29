@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 92 python files in this repo.
+There's now 94 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -91,6 +91,8 @@ There's now 92 python files in this repo.
 |<a href="./sorting/merge_sort.py">sorting/merge\_sort.py</a>|Merge Sort.|
 |<a href="./superbowl_numbers.py">superbowl\_numbers.py</a>|Get the numbers for the superbowl box pools.|
 |<a href="./swapi.py">swapi.py</a>|Python Generator - Crawl Star Wars API (swapi.io).|
+|<a href="./tests/__init__.py">tests/\_\_init\_\_.py</a>|No docstring provided.|
+|<a href="./tests/test_divisors_unittest.py">tests/test\_divisors\_unittest.py</a>|No docstring provided.|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
 |<a href="./two_sum.py">two\_sum.py</a>|Two Sums.|
 |<a href="./virtualenv_env_requirements.py">virtualenv\_env\_requirements.py</a>|List Virtual Environment Python versions.|

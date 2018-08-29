@@ -12,7 +12,7 @@ https://leetcode.com/problems/two-sum/description/
 """
 
 
-def two_sums_brute_force(nums, target, *args, **kwargs):
+def two_sums_brute_force(nums: list, target: int, *args, **kwargs):
     """Return the two indices in nums that add up to target.
 
     This is a Brute force method.
@@ -20,10 +20,10 @@ def two_sums_brute_force(nums, target, *args, **kwargs):
     for i in nums:
         for j in nums[1:]:
             if i + j == target:
-                return f'[{nums.index(i)}, {nums.index(j)}] '
+                return f'[{nums.index(i)}, {nums.index(j)}]'
 
 
-def two_sums(nums, target, *args, **kwargs):
+def two_sums(nums: list, target: int, *args, **kwargs):
     """Return the two indices in nums that add up to target.
 
     This uses python dictionaries.
@@ -33,7 +33,7 @@ def two_sums(nums, target, *args, **kwargs):
     for key, value in map_.items():
         complement = target - key
         if complement in map_.keys():
-            return f'[{value} {map_[complement]}]'
+            return f'[{value}, {map_[complement]}]'
 
     return f'No two sum solution'
 
