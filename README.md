@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 97 python files in this repo.
+There's now 98 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -32,7 +32,7 @@ There's now 97 python files in this repo.
 |<a href="./demo/__init__.py">demo/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./demo/abc_demo.py">demo/abc\_demo.py</a>|Abstract Base Class (ABC) testing.|
 |<a href="./demo/aiohttp_demo.py">demo/aiohttp\_demo.py</a>|Demo of aiohttp package.|
-|<a href="./demo/asyncio_demo.py">demo/asyncio\_demo.py</a>|Demo on asyncio. Get Articles from website urls.|
+|<a href="./demo/asyncio_demo.py">demo/asyncio\_demo.py</a>|Demo on asyncio.|
 |<a href="./demo/asyncio_demo_2.py">demo/asyncio\_demo\_2.py</a>|Asyncio demo finding next prime numbers for a list.|
 |<a href="./demo/difflib_demo.py">demo/difflib\_demo.py</a>|Example of difflib.|
 |<a href="./demo/itertools_demo.py">demo/itertools\_demo.py</a>|Itertools demo.|
@@ -96,6 +96,7 @@ There's now 97 python files in this repo.
 |<a href="./tests/test_circles.py">tests/test\_circles.py</a>|No docstring provided.|
 |<a href="./tests/test_divisors_unittest.py">tests/test\_divisors\_unittest.py</a>|No docstring provided.|
 |<a href="./tests/test_two_sums_unittest.py">tests/test\_two\_sums\_unittest.py</a>|No docstring provided.|
+|<a href="./tests/test_word_count.py">tests/test\_word\_count.py</a>|No docstring provided.|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
 |<a href="./two_sum.py">two\_sum.py</a>|Two Sums.|
 |<a href="./virtualenv_env_requirements.py">virtualenv\_env\_requirements.py</a>|List Virtual Environment Python versions.|
