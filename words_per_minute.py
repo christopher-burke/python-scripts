@@ -8,8 +8,8 @@ from math import ceil
 
 
 class ReadingTime:
-
     """Class to calulate the reading time of text.
+
     The reading time is calulated based on
     words per minute and average word length.
     """
