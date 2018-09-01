@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 99 python files in this repo.
+There's now 100 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -104,4 +104,5 @@ There's now 99 python files in this repo.
 |<a href="./weather.py">weather.py</a>|Weather from weather.gov.|
 |<a href="./weekday_wrapper.py">weekday\_wrapper.py</a>|Useful Weekday wrappers.|
 |<a href="./word_count.py">word\_count.py</a>|Count words and the three most common ones.|
+|<a href="./words_per_minute.py">words\_per\_minute.py</a>|Calculate the words per minute of text.|
 |<a href="./youtube.py">youtube.py</a>|YouTube utilites.|
