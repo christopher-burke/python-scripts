@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 100 python files in this repo.
+There's now 101 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -20,6 +20,7 @@ There's now 100 python files in this repo.
 |<a href="./cipher/cipher.py">cipher/cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./cipher/rotational_cipher.py">cipher/rotational\_cipher.py</a>|Rotational Cipher.|
 |<a href="./circles.py">circles.py</a>|No docstring provided.|
+|<a href="./clock.py">clock.py</a>|Simple clock using tkinter.|
 |<a href="./coffee_repo_archive.py">coffee\_repo\_archive.py</a>|Archive Coffee-Repo list in README.md.|
 |<a href="./coffee_repo_master.py">coffee\_repo\_master.py</a>|Create Coffee-Repo Master list.|
 |<a href="./coin_flip.py">coin\_flip.py</a>|Coin Flip.|
