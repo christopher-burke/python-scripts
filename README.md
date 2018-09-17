@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 103 python files in this repo.
+There's now 104 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -99,6 +99,7 @@ There's now 103 python files in this repo.
 |<a href="./tests/test_breath.py">tests/test\_breath.py</a>|No docstring provided.|
 |<a href="./tests/test_circles.py">tests/test\_circles.py</a>|Unittest for circles.py.|
 |<a href="./tests/test_divisors_unittest.py">tests/test\_divisors\_unittest.py</a>|No docstring provided.|
+|<a href="./tests/test_flatten.py">tests/test\_flatten.py</a>|Test for flatten module.|
 |<a href="./tests/test_two_sums_unittest.py">tests/test\_two\_sums\_unittest.py</a>|No docstring provided.|
 |<a href="./tests/test_word_count.py">tests/test\_word\_count.py</a>|No docstring provided.|
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
