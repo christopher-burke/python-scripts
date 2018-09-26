@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 107 python files in this repo.
+There's now 108 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -89,9 +89,10 @@ There's now 107 python files in this repo.
 |<a href="./remove_pyc.py">remove\_pyc.py</a>|Search and remove pyc files.|
 |<a href="./replace_x.py">replace\_x.py</a>|Replace all code letters with X.|
 |<a href="./sieve_of_eratosthenes.py">sieve\_of\_eratosthenes.py</a>|Sieve of Eratosthenes.|
+|<a href="./simple_warmups/monkey_trouble.py">simple\_warmups/monkey\_trouble.py</a>|monkey_trouble|
+|<a href="./simple_warmups/sleepin.py">simple\_warmups/sleepin.py</a>|sleep_in|
 |<a href="./site_checker.py">site\_checker.py</a>|Site Checker.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
-|<a href="./sleepin.py">sleepin.py</a>|sleep_in|
 |<a href="./sorting/bubble_sort.py">sorting/bubble\_sort.py</a>|Bubble Sort.|
 |<a href="./sorting/insertion_sort.py">sorting/insertion\_sort.py</a>|Insertion Sort.|
 |<a href="./sorting/merge_sort.py">sorting/merge\_sort.py</a>|Merge Sort.|
