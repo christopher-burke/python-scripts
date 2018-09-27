@@ -2,7 +2,7 @@
 
 """Even Fibonacci Numbers.
 
-Fibonacci sequence whose values do not exceed four million, 
+Fibonacci sequence whose values do not exceed four million,
 find the sum of the even-valued terms.
 
 source: https://projecteuler.net/problem=2
