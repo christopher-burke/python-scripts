@@ -1,26 +1,36 @@
 #!/usr/bin/env python3
 
-"""Game on. Games won tracker."""
+"""Game on.
 
-from datetime import date
+Games won tracker.
+"""
+
+
 from dataclasses import dataclass, asdict
 import json
 import sys
+# from datetime import date
 
 
 @dataclass
 class Player:
+    """Player dataclass."""
+
     name: str
 
 
 @dataclass
 class Match:
+    """Match dataclass."""
+
     game: str
     date: date = date.today().__str__()
 
 
 @dataclass
 class Results:
+    """Results dataclass."""
+
     match: Match
     player: Player
     wins: int = 0
@@ -28,19 +38,22 @@ class Results:
 
 
 def load():
+    """Load data from json file."""
     with open('game_on.json') as json_file:
         data = json.load(json_file)
 
     return data
 
 
-def write(data):
+def write(data, *args, **kwargs):
+    """Write data to the json file."""
     with open('game_on.json', 'w') as json_file:
         json.dump(data, json_file)
     return True
 
 
 def main():
+    """Game on main funtion."""
     pass
 
 
