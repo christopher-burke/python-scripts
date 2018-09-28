@@ -2,7 +2,6 @@
 
 """Collection of Utilities."""
 
-import requests
 from shlex import quote
 from subprocess import Popen, PIPE
 from datetime import datetime
@@ -34,7 +33,8 @@ def shell(*args):
 
 
 def python_gitignore():
-    """Pull latest Python.gitignore file from github."""
+    """Create the latest gitignore file for Python from github."""
+    import requests
     URL = 'https://raw.githubusercontent.com/github' + \
         '/gitignore/master/Python.gitignore'
     r = requests.get(URL)
