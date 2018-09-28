@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-"""YouTube utilites.
+"""YouTube utilities.
 
 Using the YouTube URL:
 * Get the YouTube Title

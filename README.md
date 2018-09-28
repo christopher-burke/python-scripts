@@ -121,4 +121,4 @@ There's now 116 python files in this repo.
 |<a href="./weekday_wrapper.py">weekday\_wrapper.py</a>|Useful Weekday wrappers.|
 |<a href="./word_count.py">word\_count.py</a>|Count words and the three most common ones.|
 |<a href="./words_per_minute.py">words\_per\_minute.py</a>|Calculate the words per minute of text.|
-|<a href="./youtube.py">youtube.py</a>|YouTube utilites.|
+|<a href="./youtube.py">youtube.py</a>|YouTube utilities.|
