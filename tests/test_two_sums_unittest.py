@@ -4,7 +4,8 @@ from two_sum import two_sums, two_sums_brute_force
 
 class TestTwoSums(unittest.TestCase):
 
-    def setUp(self):
+    @classmethod
+    def setUpClass(self):
         self.nums = [2, 7, 11, 15]
         self.target = 9
         self.wrong_target = 8

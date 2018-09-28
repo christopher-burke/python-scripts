@@ -3,13 +3,7 @@
 """Unittest for circles.py."""
 
 
-import os
-import sys
 import unittest
-
-add_path = os.path.dirname(os.path.dirname((os.path.realpath(__file__))))
-sys.path.insert(0, add_path)
-
 from circles import circle_area, circle_circumference
 from math import pi as π
 
@@ -56,3 +50,7 @@ class TestCircleCircumference(unittest.TestCase):
         self.assertRaises(TypeError, circle_circumference, 2+5j)
         self.assertRaises(TypeError, circle_circumference, True)
         self.assertRaises(TypeError, circle_circumference, "maths")
+
+
+if __name__ == '__main__':
+    unittest.main()

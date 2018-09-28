@@ -1,4 +1,8 @@
-"""Unittests for library."""
+"""Unittests for library.
+
+
+Run using `python -m unittest` in the top level directory folder.
+"""
 
 import os
 import sys
