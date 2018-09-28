@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 116 python files in this repo.
+There's now 117 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -95,6 +95,7 @@ There's now 116 python files in this repo.
 |<a href="./simple_warmups/monkey_trouble.py">simple\_warmups/monkey\_trouble.py</a>|monkey_trouble|
 |<a href="./simple_warmups/multiples_of_3_and_5.py">simple\_warmups/multiples\_of\_3\_and\_5.py</a>|Multiples of 3 and 5.|
 |<a href="./simple_warmups/near_hundred.py">simple\_warmups/near\_hundred.py</a>|Near Hundred.|
+|<a href="./simple_warmups/not_string.py">simple\_warmups/not\_string.py</a>|Not String.|
 |<a href="./simple_warmups/parrot_trouble.py">simple\_warmups/parrot\_trouble.py</a>|Parrot trouble.|
 |<a href="./simple_warmups/pos_neg.py">simple\_warmups/pos\_neg.py</a>|Positive Negative.|
 |<a href="./simple_warmups/sleepin.py">simple\_warmups/sleepin.py</a>|sleep_in|
