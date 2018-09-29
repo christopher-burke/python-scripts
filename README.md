@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 119 python files in this repo.
+There's now 121 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -44,6 +44,8 @@ There's now 119 python files in this repo.
 |<a href="./distinct_file_finder.py">distinct\_file\_finder.py</a>|Distinct Files in directory.|
 |<a href="./divisors.py">divisors.py</a>|Divisors: Find all the divisors of a number.|
 |<a href="./dug_dice.py">dug\_dice.py</a>|Dug Dice.|
+|<a href="./fake_names_addresses.py">fake\_names\_addresses.py</a>|Fake Names and addresses.|
+|<a href="./fake_text.py">fake\_text.py</a>|Fake text generator.|
 |<a href="./fantasy_keepers.py">fantasy\_keepers.py</a>|Get Fantasy Baseball Keepers from years past.|
 |<a href="./fantasy_matchup_week.py">fantasy\_matchup\_week.py</a>|Week number matchups for Fantasy Baseball.|
 |<a href="./fibonacci.py">fibonacci.py</a>|Fibonacci.|
