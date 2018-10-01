@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 122 python files in this repo.
+There's now 123 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -90,6 +90,7 @@ There's now 122 python files in this repo.
 |<a href="./readme.py">readme.py</a>|Generate the README.md file a repo.|
 |<a href="./remove_pyc.py">remove\_pyc.py</a>|Search and remove pyc files.|
 |<a href="./replace_x.py">replace\_x.py</a>|Replace all code letters with X.|
+|<a href="./salutation.py">salutation.py</a>|Salutation.|
 |<a href="./sieve_of_eratosthenes.py">sieve\_of\_eratosthenes.py</a>|Sieve of Eratosthenes.|
 |<a href="./simple_warmups/diff21.py">simple\_warmups/diff21.py</a>|Difference 21.|
 |<a href="./simple_warmups/even_fibonacci_numbers.py">simple\_warmups/even\_fibonacci\_numbers.py</a>|Even Fibonacci Numbers.|
