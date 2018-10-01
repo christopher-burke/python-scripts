@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 121 python files in this repo.
+There's now 122 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -121,6 +121,7 @@ There's now 121 python files in this repo.
 |<a href="./timetogo.py">timetogo.py</a>|Time to go.|
 |<a href="./tw.py">tw.py</a>|Wrapper for textwrap module.|
 |<a href="./two_sum.py">two\_sum.py</a>|Two Sums.|
+|<a href="./unlock.py">unlock.py</a>|Unlock code.|
 |<a href="./virtualenv_env_requirements.py">virtualenv\_env\_requirements.py</a>|List Virtual Environment Python versions.|
 |<a href="./weather.py">weather.py</a>|Weather from weather.gov.|
 |<a href="./weekday_wrapper.py">weekday\_wrapper.py</a>|Useful Weekday wrappers.|
