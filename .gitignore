@@ -121,3 +121,8 @@ virtualenvs-*.md
 nameo/static/*
 
 /output
+
+# Ignore log files and database files.
+log.*
+*.db
+
