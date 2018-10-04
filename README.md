@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 124 python files in this repo.
+There's now 125 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -95,6 +95,7 @@ There's now 124 python files in this repo.
 |<a href="./sieve_of_eratosthenes.py">sieve\_of\_eratosthenes.py</a>|Sieve of Eratosthenes.|
 |<a href="./simple_warmups/diff21.py">simple\_warmups/diff21.py</a>|Difference 21.|
 |<a href="./simple_warmups/even_fibonacci_numbers.py">simple\_warmups/even\_fibonacci\_numbers.py</a>|Even Fibonacci Numbers.|
+|<a href="./simple_warmups/front3.py">simple\_warmups/front3.py</a>|Given a string, we'll say that the front is the|
 |<a href="./simple_warmups/front_back.py">simple\_warmups/front\_back.py</a>|Front Back.|
 |<a href="./simple_warmups/makes_10.py">simple\_warmups/makes\_10.py</a>|Makes 10.|
 |<a href="./simple_warmups/missing_char.py">simple\_warmups/missing\_char.py</a>|Missing Character.|
