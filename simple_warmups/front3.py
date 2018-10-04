@@ -9,7 +9,10 @@ Return a new string which is 3 copies of the front.
 
 front3('Java') → 'JavJavJav'
 front3('Chocolate') → 'ChoChoCho'
-front3('abc') → 'abcabcabc'"""
+front3('abc') → 'abcabcabc'
+
+source: https://codingbat.com/prob/p147920
+"""
 
 
 def front3(str_: str) -> str:
