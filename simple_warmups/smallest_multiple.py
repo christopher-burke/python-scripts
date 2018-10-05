@@ -23,8 +23,6 @@ def smallest_divisor(range_=20):
         total = sum([number % x for x in divisors])
         if total == 0:
             return number
-        if number % 100 == 0:
-            print(f'Tried number {number}...')
 
 
 if __name__ == "__main__":
