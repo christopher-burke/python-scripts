@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 128 python files in this repo.
+There's now 129 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -110,6 +110,7 @@ There's now 128 python files in this repo.
 |<a href="./simple_warmups/smallest_multiple.py">simple\_warmups/smallest\_multiple.py</a>|2520 is the smallest number that can be divided by|
 |<a href="./simple_warmups/sum_double.py">simple\_warmups/sum\_double.py</a>|sum_double|
 |<a href="./simple_warmups/sum_square_difference.py">simple\_warmups/sum\_square\_difference.py</a>|Sum square difference.|
+|<a href="./simple_warmups/ten_k_one_prime.py">simple\_warmups/ten\_k\_one\_prime.py</a>|10001th prime.|
 |<a href="./site_checker.py">site\_checker.py</a>|Site Checker.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./sorting/bubble_sort.py">sorting/bubble\_sort.py</a>|Bubble Sort.|
