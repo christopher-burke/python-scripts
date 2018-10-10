@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 129 python files in this repo.
+There's now 111 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -93,24 +93,6 @@ There's now 129 python files in this repo.
 |<a href="./replace_x.py">replace\_x.py</a>|Replace all code letters with X.|
 |<a href="./salutation.py">salutation.py</a>|Salutation.|
 |<a href="./sieve_of_eratosthenes.py">sieve\_of\_eratosthenes.py</a>|Sieve of Eratosthenes.|
-|<a href="./simple_warmups/diff21.py">simple\_warmups/diff21.py</a>|Difference 21.|
-|<a href="./simple_warmups/even_fibonacci_numbers.py">simple\_warmups/even\_fibonacci\_numbers.py</a>|Even Fibonacci Numbers.|
-|<a href="./simple_warmups/front3.py">simple\_warmups/front3.py</a>|Given a string, we'll say that the front is the|
-|<a href="./simple_warmups/front_back.py">simple\_warmups/front\_back.py</a>|Front Back.|
-|<a href="./simple_warmups/largest_prime.py">simple\_warmups/largest\_prime.py</a>|Largest prime factor.|
-|<a href="./simple_warmups/makes_10.py">simple\_warmups/makes\_10.py</a>|Makes 10.|
-|<a href="./simple_warmups/missing_char.py">simple\_warmups/missing\_char.py</a>|Missing Character.|
-|<a href="./simple_warmups/monkey_trouble.py">simple\_warmups/monkey\_trouble.py</a>|monkey_trouble|
-|<a href="./simple_warmups/multiples_of_3_and_5.py">simple\_warmups/multiples\_of\_3\_and\_5.py</a>|Multiples of 3 and 5.|
-|<a href="./simple_warmups/near_hundred.py">simple\_warmups/near\_hundred.py</a>|Near Hundred.|
-|<a href="./simple_warmups/not_string.py">simple\_warmups/not\_string.py</a>|Not String.|
-|<a href="./simple_warmups/parrot_trouble.py">simple\_warmups/parrot\_trouble.py</a>|Parrot trouble.|
-|<a href="./simple_warmups/pos_neg.py">simple\_warmups/pos\_neg.py</a>|Positive Negative.|
-|<a href="./simple_warmups/sleepin.py">simple\_warmups/sleepin.py</a>|sleep_in|
-|<a href="./simple_warmups/smallest_multiple.py">simple\_warmups/smallest\_multiple.py</a>|2520 is the smallest number that can be divided by|
-|<a href="./simple_warmups/sum_double.py">simple\_warmups/sum\_double.py</a>|sum_double|
-|<a href="./simple_warmups/sum_square_difference.py">simple\_warmups/sum\_square\_difference.py</a>|Sum square difference.|
-|<a href="./simple_warmups/ten_k_one_prime.py">simple\_warmups/ten\_k\_one\_prime.py</a>|10001th prime.|
 |<a href="./site_checker.py">site\_checker.py</a>|Site Checker.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
 |<a href="./sorting/bubble_sort.py">sorting/bubble\_sort.py</a>|Bubble Sort.|
