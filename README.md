@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 111 python files in this repo.
+There's now 112 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -61,6 +61,7 @@ There's now 111 python files in this repo.
 |<a href="./ifttt/__init__.py">ifttt/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./ifttt/ifttt_event_trigger.py">ifttt/ifttt\_event\_trigger.py</a>|IFTTT Maker Webhooks event trigger.|
 |<a href="./inquisitor.py">inquisitor.py</a>|List file type info.|
+|<a href="./internet_test.py">internet\_test.py</a>|Internet working.|
 |<a href="./iTunes.py">iTunes.py</a>|Python Script to get the Track, Artist and Album from iTunes. |
 |<a href="./latest_python_FTP_version.py">latest\_python\_FTP\_version.py</a>|Get the latest stable version number of Python from FTP site.|
 |<a href="./latest_python_version.py">latest\_python\_version.py</a>|Get the latest version number of Python.|
