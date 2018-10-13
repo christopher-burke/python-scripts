@@ -13,9 +13,9 @@ def square(number: int):
     :return: number²
     """
     result = number * number
-    process_id = os.getpid()
-    process_name = current_process().name
-    print(f'{number}² = {result} by process: {process_name} pid: {process_id}')
+    process = current_process()
+    print(f'{number}² = {result} '
+          f'by process: {process.name} pid: {process.pid}')
     return result
 
 
