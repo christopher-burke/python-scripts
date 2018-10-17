@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 117 python files in this repo.
+There's now 118 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -19,6 +19,7 @@ There's now 117 python files in this repo.
 |<a href="./case.py">case.py</a>|Switch variable case.|
 |<a href="./cipher/aes_cipher.py">cipher/aes\_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./cipher/cipher.py">cipher/cipher.py</a>|Cipher for encryption/decryption.|
+|<a href="./cipher/reckon.py">cipher/reckon.py</a>|Reckon - simple substitution cipher.|
 |<a href="./cipher/rotational_cipher.py">cipher/rotational\_cipher.py</a>|Rotational Cipher.|
 |<a href="./circles.py">circles.py</a>|No docstring provided.|
 |<a href="./clock.py">clock.py</a>|Simple clock using tkinter.|
