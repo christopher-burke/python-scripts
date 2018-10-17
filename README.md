@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 116 python files in this repo.
+There's now 117 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -63,6 +63,7 @@ There's now 116 python files in this repo.
 |<a href="./http_server.py">http\_server.py</a>|Python Http server ("Hello, World!").|
 |<a href="./ifttt/__init__.py">ifttt/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./ifttt/ifttt_event_trigger.py">ifttt/ifttt\_event\_trigger.py</a>|IFTTT Maker Webhooks event trigger.|
+|<a href="./images/convert.py">images/convert.py</a>|Convert an image using Pillow.|
 |<a href="./inquisitor.py">inquisitor.py</a>|List file type info.|
 |<a href="./internet_test.py">internet\_test.py</a>|Internet working.|
 |<a href="./iTunes.py">iTunes.py</a>|Python Script to get the Track, Artist and Album from iTunes. |
