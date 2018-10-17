@@ -79,14 +79,14 @@ def decrypt(string: str, map_: dict) -> str:
 
 def main():
     """Sample encryption decryption."""
-    in_str = 'This is a test string for the cipher.'
+    in_str = 'This is only a test.'
     in_str = b64encode(in_str.encode()).decode()
     in_str = convert_string(in_str, 'e')
-    print(in_str)
-    out_str = """t$wmik7mik7wu;h8i{g^i{hk=AWyu$"?if7B=$r^OX8s=$tkQ^HH"""
+    print(f'>> [{in_str}] <<')
+    out_str = r"Cm^WL6,WL6,:NdkJFm1yKmC\KH+ "
     out_str = convert_string(out_str, 'd')
-    print(b64decode(out_str).decode())
-    print(len(in_str))
+    out_str = b64decode(out_str).decode()
+    print(f'>> [{out_str}] <<')
 
 
 if __name__ == "__main__":
