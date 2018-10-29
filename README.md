@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 119 python files in this repo.
+There's now 120 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -95,6 +95,7 @@ There's now 119 python files in this repo.
 |<a href="./qb_rating.py">qb\_rating.py</a>|NFL Quarterback Rating.|
 |<a href="./random_password_gen.py">random\_password\_gen.py</a>|Class based random password generator.  Uses string, random, sys modules.|
 |<a href="./readme.py">readme.py</a>|Generate the README.md file a repo.|
+|<a href="./remove_common_words.py">remove\_common\_words.py</a>|Remove common words from text.|
 |<a href="./remove_pyc.py">remove\_pyc.py</a>|Search and remove pyc files.|
 |<a href="./replace_x.py">replace\_x.py</a>|Replace all code letters with X.|
 |<a href="./salutation.py">salutation.py</a>|Salutation.|
