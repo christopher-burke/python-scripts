@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 118 python files in this repo.
+There's now 119 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -101,6 +101,7 @@ There's now 118 python files in this repo.
 |<a href="./sieve_of_eratosthenes.py">sieve\_of\_eratosthenes.py</a>|Sieve of Eratosthenes.|
 |<a href="./site_checker.py">site\_checker.py</a>|Site Checker.|
 |<a href="./sitstand.py">sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
+|<a href="./sort_clipboard.py">sort\_clipboard.py</a>|Sort Clipboard using pyperclip.|
 |<a href="./sorting/bubble_sort.py">sorting/bubble\_sort.py</a>|Bubble Sort.|
 |<a href="./sorting/insertion_sort.py">sorting/insertion\_sort.py</a>|Insertion Sort.|
 |<a href="./sorting/merge_sort.py">sorting/merge\_sort.py</a>|Merge Sort.|
