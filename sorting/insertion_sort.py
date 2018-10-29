@@ -7,7 +7,7 @@ import copy
 
 
 def insertion_sort(A):
-    """Insertion sort algorthim implementation."""
+    """Insertion sort algorithm implementation."""
     for j in range(1, len(A)):
         key = copy.deepcopy(A[j])
         i = j
