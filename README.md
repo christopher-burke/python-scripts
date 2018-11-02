@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 123 python files in this repo.
+There's now 124 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -96,6 +96,7 @@ There's now 123 python files in this repo.
 |<a href="./prime_factorization.py">prime\_factorization.py</a>|Prime Factorization.|
 |<a href="./print_months.py">print\_months.py</a>|Print the calendars for last, this, and next|
 |<a href="./qb_rating.py">qb\_rating.py</a>|NFL Quarterback Rating.|
+|<a href="./random_name.py">random\_name.py</a>|Random Name - Generate a random name.|
 |<a href="./random_password_gen.py">random\_password\_gen.py</a>|Class based random password generator.  Uses string, random, sys modules.|
 |<a href="./readme.py">readme.py</a>|Generate the README.md file a repo.|
 |<a href="./remove_common_words.py">remove\_common\_words.py</a>|Remove common words from text.|
