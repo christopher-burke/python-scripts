@@ -7,7 +7,7 @@ Create a file that logs the text copied to the clipboard.
 
 
 import pyperclip
-from collections import namedtuple, OrderedDict
+from collections import namedtuple
 from datetime import datetime
 import time
 import pathlib
@@ -18,18 +18,23 @@ CopiedItem = namedtuple('CopiedItem', ['text', 'date', 'time'])
 
 
 def write(item: CopiedItem):
-    """Write the copied item to the file."""
+    """Write the copied item to the file.
+
+    item - namedtuple('CopiedItem', ['text', 'date', 'time'])
+
+    :return: None
+    """
     clipboard_history_file = pathlib.Path.home() / 'clipboard_history.json'
     try:
         with open(f'{clipboard_history_file}', 'a') as fout:
             json.dump(item._asdict(), fout)
     except FileNotFoundError:
         with open(f'{clipboard_history_file}', 'w') as fout:
-            json.dump(item._asdict(), fout)
+            json.dump(item._asdict(), fout, indent=4)
 
 
 def main():
-    """Main function of program."""
+    """Clipboard History main function."""
     copy_value = ""
     while True:
         new_value = pyperclip.paste()
