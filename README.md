@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 122 python files in this repo.
+There's now 123 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -28,6 +28,7 @@ There's now 122 python files in this repo.
 |<a href="./coffee_repo_master.py">coffee\_repo\_master.py</a>|Create Coffee-Repo Master list.|
 |<a href="./coin_flip.py">coin\_flip.py</a>|Coin Flip.|
 |<a href="./collatz_conjecture.py">collatz\_conjecture.py</a>|Collatz Conjecture.|
+|<a href="./crawl.py">crawl.py</a>|Crawler.|
 |<a href="./csv_to_json.py">csv\_to\_json.py</a>|Convert CSV file to JSON file.|
 |<a href="./date_info.py">date\_info.py</a>|Number of days from/until start/end of the month.|
 |<a href="./db_template.py">db\_template.py</a>|SQLite3 database creation.|
