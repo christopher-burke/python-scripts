@@ -9,7 +9,7 @@ import re
 IP_ADDRESS_REGEX = r'((?:\d{1,3}\.){3}\d{1,3})'
 
 
-def external_ip(site='https://www.privateinternetaccess.com/pages/whats-my-ip/'):
+def external_ip(site):
     """Get the external IP address."""
     r = requests.get(site)
     if r.status_code == 200:
@@ -22,7 +22,8 @@ def external_ip(site='https://www.privateinternetaccess.com/pages/whats-my-ip/')
 
 def main():
     """Run the External IP script."""
-    return external_ip()
+    site = 'https://www.privateinternetaccess.com/pages/whats-my-ip/'
+    return external_ip(site)
 
 
 if __name__ == "__main__":
