@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 126 python files in this repo.
+There's now 127 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -104,6 +104,7 @@ There's now 126 python files in this repo.
 |<a href="./remove_common_words.py">remove\_common\_words.py</a>|Remove common words from text.|
 |<a href="./remove_pyc.py">remove\_pyc.py</a>|Search and remove pyc files.|
 |<a href="./replace_x.py">replace\_x.py</a>|Replace all code letters with X.|
+|<a href="./roll_dice.py">roll\_dice.py</a>|Roll a die.|
 |<a href="./salutation.py">salutation.py</a>|Salutation.|
 |<a href="./sieve_of_eratosthenes.py">sieve\_of\_eratosthenes.py</a>|Sieve of Eratosthenes.|
 |<a href="./site_checker.py">site\_checker.py</a>|Site Checker.|
