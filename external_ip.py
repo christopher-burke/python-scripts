@@ -28,3 +28,4 @@ def main():
 
 if __name__ == "__main__":
     print(main())
+    print(external_ip(site="http://checkip.dyndns.com/"))
