@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 129 python files in this repo.
+There's now 130 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -44,6 +44,7 @@ There's now 129 python files in this repo.
 |<a href="./demo/difflib_demo.py">demo/difflib\_demo.py</a>|Example of difflib.|
 |<a href="./demo/itertools_demo.py">demo/itertools\_demo.py</a>|Itertools demo.|
 |<a href="./demo/multiprocessing_demo.py">demo/multiprocessing\_demo.py</a>|multiprocessing demo.|
+|<a href="./demo/shelve_.py">demo/shelve\_.py</a>|Shelve demo.|
 |<a href="./demo/singledispatch_demo.py">demo/singledispatch\_demo.py</a>|Sample of functools.singledispatch.|
 |<a href="./demo/turtle_demo.py">demo/turtle\_demo.py</a>|Demo of the turtule module.|
 |<a href="./dev_utils.py">dev\_utils.py</a>|Collection of Utilities.|
