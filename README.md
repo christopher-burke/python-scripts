@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 127 python files in this repo.
+There's now 128 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -81,6 +81,7 @@ There's now 127 python files in this repo.
 |<a href="./logging_example.py">logging\_example.py</a>|logging example.|
 |<a href="./make_gif.py">make\_gif.py</a>|Create gif from directory.|
 |<a href="./md_list_maker.py">md\_list\_maker.py</a>|Markdown list maker.|
+|<a href="./meaning.py">meaning.py</a>|Look up the meaning of a word.|
 |<a href="./monty_hall.py">monty\_hall.py</a>|Monty Hall Game.|
 |<a href="./move_folder_files.py">move\_folder\_files.py</a>|Move files to another folder.|
 |<a href="./mta_service.py">mta\_service.py</a>|Python Script to get the status of MTA Service.|
