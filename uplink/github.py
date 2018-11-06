@@ -6,19 +6,26 @@ Demo of the uplink package (https://uplink.readthedocs.io).
 `pip install -U uplink`
 """
 
-from uplink import Consumer, Query, get
+from uplink import Consumer, get, Path, Query
 
 
 class GitHub(Consumer):
+    """GitHub API Consumer."""
 
     @get("repositories")
-    def get_repo(): pass
+    def get_repo():
+        """Get public repositories from GitHub API."""
+        pass
 
     @get("users/{username}")
-    def get_user(self, username): pass
+    def get_user(self, username):
+        """Get user data from GitHub API."""
+        pass
 
     @get("users/{username}/repos")
-    def get_user_repos(self, username): pass
+    def get_user_repos(self, username: Path, sort_by: Query('sort') = None):
+        """Get public user repositories from GitHub API."""
+        pass
 
 
 def print_info(user, all_user_repos):
@@ -46,7 +53,8 @@ def main():
     """Working with uplink to get GitHub info."""
     github = GitHub(base_url="https://api.github.com/")
     user = github.get_user(username='christopher-burke')
-    all_user_repos = github.get_user_repos(username='christopher-burke')
+    all_user_repos = github.get_user_repos(
+        username='christopher-burke', sort_by='created')
     print_info(user, all_user_repos)
 
 
