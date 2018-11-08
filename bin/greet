@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+
+from cb_scripts.salutation import main
+from datetime import datetime
+
+now = datetime.now().hour
+print(main(now))
