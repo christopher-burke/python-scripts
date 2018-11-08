@@ -1,4 +1,8 @@
 from setuptools import setup
+from pathlib import Path
+
+
+scripts_dir = [f.as_posix() for f in Path('./bin').iterdir()]
 
 setup(
     name='cb_scripts',
@@ -8,6 +12,6 @@ setup(
     license='MIT',
 
     packages=['cb_scripts'],
-    scripts=['bin/greet'],
+    scripts=scripts_dir,
     zip_safe=False,
 )
