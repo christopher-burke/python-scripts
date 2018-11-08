@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+from cb_scripts.hour_chime import alert
+
+import sys
+import schedule
+import time
+from functools import partial
+
+
+try:
+    sound_file = sys.argv[1]
+except IndexError:
+    print('Please provide a sound file.')
+    sys.exit(1)
+
+job = partial(alert, sound_file)
+schedule.every().hour.at("00:33").do(job_func=job)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)

@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+from cb_scripts.programming_quotes import main
+
+print(main())

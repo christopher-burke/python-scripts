@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from cb_scripts.breathe import breathe
+try:
+    while True:
+        breathe()
+except KeyboardInterrupt:
+    print("\nThank you")
