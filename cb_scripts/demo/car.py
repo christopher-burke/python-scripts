@@ -12,10 +12,11 @@ class Car:
         self.mileage = mileage
 
     def __repr__(self):
-        return f'Car(color={self.color}, mileage={self.mileage})'
+        return f'{self.__class__.__name__}' \
+            f'(color=\'{self.color}\', mileage={self.mileage})'
 
     def __str__(self):
-        return f'a car {self.color} car'
+        return f'A car {self.color} car'
 
 
 if __name__ == "__main__":
