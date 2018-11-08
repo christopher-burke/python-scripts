@@ -7,11 +7,11 @@ import string
 import sys
 
 
-class RandomPassword(object):
-    """RadomPassword class."""
+class RandomPassword:
+    """RandomPassword class."""
 
     def __init__(self, length=20):
-        """Radom Passord class __init__ method."""
+        """Random Passord class __init__ method."""
         self.length = length
 
     def password_gen(self):
