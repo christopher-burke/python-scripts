@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+from cb_scripts.clipboard_history import main
+
+main()
