@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 135 python files in this repo.
+There's now 136 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -82,6 +82,7 @@ There's now 135 python files in this repo.
 |<a href="./cb_scripts/leap_year.py">cb\_scripts/leap\_year.py</a>|Leap Year tester.|
 |<a href="./cb_scripts/list_modules.py">cb\_scripts/list\_modules.py</a>|List modules used in Python files.|
 |<a href="./cb_scripts/list_virtualenvs.py">cb\_scripts/list\_virtualenvs.py</a>|List all virtualenvs.|
+|<a href="./cb_scripts/lock_screen.py">cb\_scripts/lock\_screen.py</a>|Lock the Screen.|
 |<a href="./cb_scripts/logging_example.py">cb\_scripts/logging\_example.py</a>|logging example.|
 |<a href="./cb_scripts/make_gif.py">cb\_scripts/make\_gif.py</a>|Create gif from directory.|
 |<a href="./cb_scripts/md_list_maker.py">cb\_scripts/md\_list\_maker.py</a>|Markdown list maker.|
