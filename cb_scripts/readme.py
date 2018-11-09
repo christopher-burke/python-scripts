@@ -11,7 +11,7 @@ from functools import partial
 
 
 def load_template():
-    file_loader = FileSystemLoader('templates')
+    file_loader = FileSystemLoader('cb_scripts/templates')
     env = Environment(loader=file_loader)
     template = env.get_template('readme_template.md')
     return template

@@ -2,10 +2,11 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 133 python files in this repo.
+There's now 135 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
+|<a href="./cb_scripts/__init__.py">cb\_scripts/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./cb_scripts/ad/account_expiration.py">cb\_scripts/ad/account\_expiration.py</a>|Account Expiration|
 |<a href="./cb_scripts/article_fetcher.py">cb\_scripts/article\_fetcher.py</a>|Get Articles from website urls.|
 |<a href="./cb_scripts/baseball/__init__.py">cb\_scripts/baseball/\_\_init\_\_.py</a>|No docstring provided.|
@@ -139,3 +140,4 @@ There's now 133 python files in this repo.
 |<a href="./cb_scripts/word_count.py">cb\_scripts/word\_count.py</a>|Count words and the three most common ones.|
 |<a href="./cb_scripts/words_per_minute.py">cb\_scripts/words\_per\_minute.py</a>|Calculate the words per minute of text.|
 |<a href="./cb_scripts/youtube.py">cb\_scripts/youtube.py</a>|YouTube utilities.|
+|<a href="./setup.py">setup.py</a>|No docstring provided.|

@@ -105,4 +105,4 @@ if __name__ == "__main__":
             scheduler(url=url, seconds=int(seconds))
     except (IndexError, ValueError) as e:
         print(e)
-        print(f'python ./{__file__}.py <url> <interval in seconds>')
+        print(f'python {__file__}.py <url> <interval in seconds>')
