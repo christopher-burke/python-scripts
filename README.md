@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 136 python files in this repo.
+There's now 137 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -131,6 +131,7 @@ There's now 136 python files in this repo.
 |<a href="./cb_scripts/tests/test_two_sums_unittest.py">cb\_scripts/tests/test\_two\_sums\_unittest.py</a>|No docstring provided.|
 |<a href="./cb_scripts/tests/test_word_count.py">cb\_scripts/tests/test\_word\_count.py</a>|No docstring provided.|
 |<a href="./cb_scripts/timetogo.py">cb\_scripts/timetogo.py</a>|Time to go.|
+|<a href="./cb_scripts/traffic_light.py">cb\_scripts/traffic\_light.py</a>|Traffic light simulation.|
 |<a href="./cb_scripts/tw.py">cb\_scripts/tw.py</a>|Wrapper for textwrap module.|
 |<a href="./cb_scripts/two_sum.py">cb\_scripts/two\_sum.py</a>|Two Sums.|
 |<a href="./cb_scripts/unlock.py">cb\_scripts/unlock.py</a>|Unlock code.|
