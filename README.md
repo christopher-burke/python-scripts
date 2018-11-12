@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 138 python files in this repo.
+There's now 139 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -114,6 +114,7 @@ There's now 138 python files in this repo.
 |<a href="./cb_scripts/replace_x.py">cb\_scripts/replace\_x.py</a>|Replace all code letters with X.|
 |<a href="./cb_scripts/roll_dice.py">cb\_scripts/roll\_dice.py</a>|Roll a die.|
 |<a href="./cb_scripts/salutation.py">cb\_scripts/salutation.py</a>|Salutation.|
+|<a href="./cb_scripts/screenshot.py">cb\_scripts/screenshot.py</a>|Take a Screenshot.|
 |<a href="./cb_scripts/sieve_of_eratosthenes.py">cb\_scripts/sieve\_of\_eratosthenes.py</a>|Sieve of Eratosthenes.|
 |<a href="./cb_scripts/site_checker.py">cb\_scripts/site\_checker.py</a>|Site Checker.|
 |<a href="./cb_scripts/sitstand.py">cb\_scripts/sitstand.py</a>|Script to tell me to Sitdown and Standup throughout the day.|
