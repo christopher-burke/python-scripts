@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 143 python files in this repo.
+There's now 144 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -86,7 +86,7 @@ There's now 143 python files in this repo.
 |<a href="./cb_scripts/list_virtualenvs.py">cb\_scripts/list\_virtualenvs.py</a>|List all virtualenvs.|
 |<a href="./cb_scripts/lock_screen.py">cb\_scripts/lock\_screen.py</a>|Lock the Screen.|
 |<a href="./cb_scripts/logging_example.py">cb\_scripts/logging\_example.py</a>|logging example.|
-|<a href="./cb_scripts/lyrics.py">cb\_scripts/lyrics.py</a>|How does it go? - Lyrics scraper|
+|<a href="./cb_scripts/lyrics.py">cb\_scripts/lyrics.py</a>|How does it go? - Lyrics scraper.|
 |<a href="./cb_scripts/make_gif.py">cb\_scripts/make\_gif.py</a>|Create gif from directory.|
 |<a href="./cb_scripts/md_list_maker.py">cb\_scripts/md\_list\_maker.py</a>|Markdown list maker.|
 |<a href="./cb_scripts/meaning.py">cb\_scripts/meaning.py</a>|Look up the meaning of a word.|
@@ -114,6 +114,7 @@ There's now 143 python files in this repo.
 |<a href="./cb_scripts/remove_common_words.py">cb\_scripts/remove\_common\_words.py</a>|Remove common words from text.|
 |<a href="./cb_scripts/remove_pyc.py">cb\_scripts/remove\_pyc.py</a>|Search and remove pyc files.|
 |<a href="./cb_scripts/replace_x.py">cb\_scripts/replace\_x.py</a>|Replace all code letters with X.|
+|<a href="./cb_scripts/rock_paper_scissors.py">cb\_scripts/rock\_paper\_scissors.py</a>|Rock, Paper, scissors.|
 |<a href="./cb_scripts/roll_dice.py">cb\_scripts/roll\_dice.py</a>|Roll a die.|
 |<a href="./cb_scripts/salutation.py">cb\_scripts/salutation.py</a>|Salutation.|
 |<a href="./cb_scripts/screenshot.py">cb\_scripts/screenshot.py</a>|Take a Screenshot.|
