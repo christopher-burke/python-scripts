@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 144 python files in this repo.
+There's now 145 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -65,6 +65,7 @@ There's now 144 python files in this repo.
 |<a href="./cb_scripts/find_all_links.py">cb\_scripts/find\_all\_links.py</a>|Find all links from url.|
 |<a href="./cb_scripts/find_files.py">cb\_scripts/find\_files.py</a>|Find all files matching a pattern.|
 |<a href="./cb_scripts/find_local_ips.py">cb\_scripts/find\_local\_ips.py</a>|Find all local ip addresses in an ip network.|
+|<a href="./cb_scripts/five_oclock_whistle.py">cb\_scripts/five\_oclock\_whistle.py</a>|Five O'clock Whistle.|
 |<a href="./cb_scripts/fizz_buzz.py">cb\_scripts/fizz\_buzz.py</a>|FizzBuzz Test.|
 |<a href="./cb_scripts/flatten.py">cb\_scripts/flatten.py</a>|Flatten iterable.|
 |<a href="./cb_scripts/game_on.py">cb\_scripts/game\_on.py</a>|Game on.|
