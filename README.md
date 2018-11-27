@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 145 python files in this repo.
+There's now 146 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -78,6 +78,7 @@ There's now 145 python files in this repo.
 |<a href="./cb_scripts/indenter.py">cb\_scripts/indenter.py</a>|Indentor using context manager.|
 |<a href="./cb_scripts/inquisitor.py">cb\_scripts/inquisitor.py</a>|List file type info.|
 |<a href="./cb_scripts/internet_test.py">cb\_scripts/internet\_test.py</a>|Internet working.|
+|<a href="./cb_scripts/isogram.py">cb\_scripts/isogram.py</a>|Isogram - determine if a word is an isogram.|
 |<a href="./cb_scripts/iTunes.py">cb\_scripts/iTunes.py</a>|Python Script to get the Track, Artist and Album from iTunes. |
 |<a href="./cb_scripts/latest_python_download.py">cb\_scripts/latest\_python\_download.py</a>|Download latest Python from FTP site.|
 |<a href="./cb_scripts/latest_python_FTP_version.py">cb\_scripts/latest\_python\_FTP\_version.py</a>|Get the latest stable version number of Python from FTP site.|
