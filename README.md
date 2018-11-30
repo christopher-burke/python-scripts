@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 147 python files in this repo.
+There's now 148 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -55,6 +55,7 @@ There's now 147 python files in this repo.
 |<a href="./cb_scripts/distinct_file_finder.py">cb\_scripts/distinct\_file\_finder.py</a>|Distinct Files in directory.|
 |<a href="./cb_scripts/divisors.py">cb\_scripts/divisors.py</a>|Divisors: Find all the divisors of a number.|
 |<a href="./cb_scripts/dug_dice.py">cb\_scripts/dug\_dice.py</a>|Dug Dice.|
+|<a href="./cb_scripts/envvars.py">cb\_scripts/envvars.py</a>|Environment Variables.|
 |<a href="./cb_scripts/execution_time.py">cb\_scripts/execution\_time.py</a>|Execution Time.|
 |<a href="./cb_scripts/external_ip.py">cb\_scripts/external\_ip.py</a>|External IP - using requests, get the extrenal IP Address.|
 |<a href="./cb_scripts/fake_names_addresses.py">cb\_scripts/fake\_names\_addresses.py</a>|Fake Names and addresses.|
