@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 148 python files in this repo.
+There's now 149 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -72,6 +72,7 @@ There's now 148 python files in this repo.
 |<a href="./cb_scripts/game_on.py">cb\_scripts/game\_on.py</a>|Game on.|
 |<a href="./cb_scripts/hour_chime.py">cb\_scripts/hour\_chime.py</a>|Play sound file at the top of every hour.|
 |<a href="./cb_scripts/html_decorators.py">cb\_scripts/html\_decorators.py</a>|HTML Decorators Example.|
+|<a href="./cb_scripts/html_download.py">cb\_scripts/html\_download.py</a>|Download HTML page using standard library.|
 |<a href="./cb_scripts/http_server.py">cb\_scripts/http\_server.py</a>|Python Http server ("Hello, World!").|
 |<a href="./cb_scripts/ifttt/__init__.py">cb\_scripts/ifttt/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./cb_scripts/ifttt/ifttt_event_trigger.py">cb\_scripts/ifttt/ifttt\_event\_trigger.py</a>|IFTTT Maker Webhooks event trigger.|
