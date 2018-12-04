@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 150 python files in this repo.
+There's now 152 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -24,6 +24,8 @@ There's now 150 python files in this repo.
 |<a href="./cb_scripts/cipher/reckon.py">cb\_scripts/cipher/reckon.py</a>|Reckon - simple substitution cipher.|
 |<a href="./cb_scripts/cipher/rotational_cipher.py">cb\_scripts/cipher/rotational\_cipher.py</a>|Rotational Cipher.|
 |<a href="./cb_scripts/circles.py">cb\_scripts/circles.py</a>|No docstring provided.|
+|<a href="./cb_scripts/city_times/__init__.py">cb\_scripts/city\_times/\_\_init\_\_.py</a>|No docstring provided.|
+|<a href="./cb_scripts/city_times/app.py">cb\_scripts/city\_times/app.py</a>|No docstring provided.|
 |<a href="./cb_scripts/clipboard_history.py">cb\_scripts/clipboard\_history.py</a>|Clipboard History.|
 |<a href="./cb_scripts/clock.py">cb\_scripts/clock.py</a>|Simple clock using tkinter.|
 |<a href="./cb_scripts/coffee_repo_archive.py">cb\_scripts/coffee\_repo\_archive.py</a>|Archive Coffee-Repo list in README.md.|
