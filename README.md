@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 149 python files in this repo.
+There's now 150 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -108,6 +108,7 @@ There's now 149 python files in this repo.
 |<a href="./cb_scripts/nums_square_cube.py">cb\_scripts/nums\_square\_cube.py</a>|Squares and Cubes for a range of numbers.|
 |<a href="./cb_scripts/nyj_live_score.py">cb\_scripts/nyj\_live\_score.py</a>|Get the New York Jets schedule and scores of a season from NFL.com.|
 |<a href="./cb_scripts/packtpub_free_learning.py">cb\_scripts/packtpub\_free\_learning.py</a>|Packt Free Learning book.|
+|<a href="./cb_scripts/ping_scan.py">cb\_scripts/ping\_scan.py</a>|Ping Scan|
 |<a href="./cb_scripts/prime_factorization.py">cb\_scripts/prime\_factorization.py</a>|Prime Factorization.|
 |<a href="./cb_scripts/print_months.py">cb\_scripts/print\_months.py</a>|Print the calendars for last, this, and next|
 |<a href="./cb_scripts/programming_quotes.py">cb\_scripts/programming\_quotes.py</a>|Programming Quotes.|
