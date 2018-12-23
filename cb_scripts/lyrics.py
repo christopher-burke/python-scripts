@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""How does it go? - Lyrics scraper"""
+"""How does it go? - Lyrics scraper."""
 
 import requests
 from bs4 import BeautifulSoup

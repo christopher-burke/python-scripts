@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 152 python files in this repo.
+There's now 154 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -47,7 +47,9 @@ There's now 152 python files in this repo.
 |<a href="./cb_scripts/demo/asyncio_demo_2.py">cb\_scripts/demo/asyncio\_demo\_2.py</a>|Asyncio demo finding next prime numbers for a list.|
 |<a href="./cb_scripts/demo/car.py">cb\_scripts/demo/car.py</a>|Car class.|
 |<a href="./cb_scripts/demo/difflib_demo.py">cb\_scripts/demo/difflib\_demo.py</a>|Example of difflib.|
+|<a href="./cb_scripts/demo/hello_asyncio.py">cb\_scripts/demo/hello\_asyncio.py</a>|Hello, World! Asyncio demo.|
 |<a href="./cb_scripts/demo/itertools_demo.py">cb\_scripts/demo/itertools\_demo.py</a>|Itertools demo.|
+|<a href="./cb_scripts/demo/monkey_patching.py">cb\_scripts/demo/monkey\_patching.py</a>|Monkey Patching - dynamically modify a class or module at runtime.|
 |<a href="./cb_scripts/demo/multiprocessing_demo.py">cb\_scripts/demo/multiprocessing\_demo.py</a>|multiprocessing demo.|
 |<a href="./cb_scripts/demo/shelve_.py">cb\_scripts/demo/shelve\_.py</a>|Shelve demo.|
 |<a href="./cb_scripts/demo/singledispatch_demo.py">cb\_scripts/demo/singledispatch\_demo.py</a>|Sample of functools.singledispatch.|
