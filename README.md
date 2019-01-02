@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 155 python files in this repo.
+There's now 156 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -74,6 +74,7 @@ There's now 155 python files in this repo.
 |<a href="./cb_scripts/fizz_buzz.py">cb\_scripts/fizz\_buzz.py</a>|FizzBuzz Test.|
 |<a href="./cb_scripts/flatten.py">cb\_scripts/flatten.py</a>|Flatten iterable.|
 |<a href="./cb_scripts/game_on.py">cb\_scripts/game\_on.py</a>|Game on.|
+|<a href="./cb_scripts/home_dir.py">cb\_scripts/home\_dir.py</a>|Home directory.|
 |<a href="./cb_scripts/hour_chime.py">cb\_scripts/hour\_chime.py</a>|Play sound file at the top of every hour.|
 |<a href="./cb_scripts/html_decorators.py">cb\_scripts/html\_decorators.py</a>|HTML Decorators Example.|
 |<a href="./cb_scripts/html_download.py">cb\_scripts/html\_download.py</a>|Download HTML page using standard library.|
