@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 154 python files in this repo.
+There's now 155 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -147,6 +147,7 @@ There's now 154 python files in this repo.
 |<a href="./cb_scripts/time_since.py">cb\_scripts/time\_since.py</a>|Time since a given date.|
 |<a href="./cb_scripts/time_zone.py">cb\_scripts/time\_zone.py</a>|Time Zone - Resolve what time is it?|
 |<a href="./cb_scripts/timetogo.py">cb\_scripts/timetogo.py</a>|Time to go.|
+|<a href="./cb_scripts/today_holiday.py">cb\_scripts/today\_holiday.py</a>|Today Holiday?|
 |<a href="./cb_scripts/traffic_light.py">cb\_scripts/traffic\_light.py</a>|Traffic light simulation.|
 |<a href="./cb_scripts/tw.py">cb\_scripts/tw.py</a>|Wrapper for textwrap module.|
 |<a href="./cb_scripts/two_sum.py">cb\_scripts/two\_sum.py</a>|Two Sums.|
