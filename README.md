@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 156 python files in this repo.
+There's now 158 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -155,6 +155,8 @@ There's now 156 python files in this repo.
 |<a href="./cb_scripts/unlock.py">cb\_scripts/unlock.py</a>|Unlock code.|
 |<a href="./cb_scripts/uplink/github.py">cb\_scripts/uplink/github.py</a>|GitHub consumer using uplink package.|
 |<a href="./cb_scripts/url_shortener.py">cb\_scripts/url\_shortener.py</a>|Shorten URLs using TinyURL.|
+|<a href="./cb_scripts/useful_commands.py">cb\_scripts/useful\_commands.py</a>|Useful commands.|
+|<a href="./cb_scripts/useful_information.py">cb\_scripts/useful\_information.py</a>|Useful Information.|
 |<a href="./cb_scripts/virtualenv_env_requirements.py">cb\_scripts/virtualenv\_env\_requirements.py</a>|List Virtual Environment Python versions.|
 |<a href="./cb_scripts/weather.py">cb\_scripts/weather.py</a>|Weather from weather.gov.|
 |<a href="./cb_scripts/weekday_wrapper.py">cb\_scripts/weekday\_wrapper.py</a>|Useful Weekday wrappers.|
