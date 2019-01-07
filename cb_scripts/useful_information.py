@@ -5,53 +5,51 @@
 Collection of useful information.
 """
 
+from copy import copy
+
 
 class Conversions:
     """Conversion Tables."""
 
-    conversion_value = {
-        'base': 1.0,
-        'milli': 0.001,
-        'centi': 0.01,
-        'deci': 0.1,
-        'deca': 10.0,
-        'hecto': 100.0,
-        'kilo': 1000.0,
-    }
+    conversion_values = (
+        ('milli', 0.001,),
+        ('centi', 0.01,),
+        ('deci', 0.1,),
+        ('deca', 10.0,),
+        ('hecto', 100.0,),
+        ('kilo', 1000.0,),
+    )
 
-    conversion_abbreviations = {
-        'base': 1.0,
-        'milli': 0.001,
-        'centi': 0.01,
-        'deci': 0.1,
-        'deca': 10.0,
-        'hecto': 100.0,
-        'kilo': 1000.0,
-    }
+    conversion_abbreviations = (
+        ('milli', 'm',),
+        ('centi', 'c',),
+        ('deci', 'd',),
+        ('deca', 'dk',),
+        ('hecto', 'h',),
+        ('kilo', 'k',),
+    )
 
 
 class Length(Conversions):
     """Length Conversions."""
 
-    length = {
-        'meter': 1.0,
-        'millimeter': 0.001,
-        'centimeter': 0.01,
-        'decimeter': 0.1,
-        'decameter': 10.0,
-        'hectometer': 100.0,
-        'kilometer': 1000.0,
-    }
+    def __init__(self):
+        measurement = 'meter'
+        conversion_values = super().conversion_values
+        length = {}
+        for key, value in conversion_values:
+            length[f'{key}{measurement}'] = value
 
-    abbreviations = {
-        'meter': 'm',
-        'millimeter': 'mm',
-        'centimeter': 'cm',
-        'decimeter': 'dm',
-        'decameter': 'dkm',
-        'hectometer': 'hm',
-        'kilometer': 'km',
-    }
+        length[measurement] = 1.0
+        self.length = length
+
+        conversion_abbreviations = super().conversion_abbreviations
+        abbreviations = {}
+        for key, value in conversion_abbreviations:
+            abbreviations[f'{key}{measurement}'] = value + 'm'
+
+        abbreviations[measurement] = 'm'
+        self.abbreviations = abbreviations
 
 
 class Capacity(Conversions):
@@ -102,6 +100,10 @@ class Weight(Conversions):
 
 
 if __name__ == "__main__":
-    print(Capacity.capacity)
-    print(Length.length)
-    print(Weight.weight)
+    # print(Capacity.capacity)
+    # print(Length.length)
+
+    l = Length()
+    print(l.length)
+    print(l.abbreviations)
+    # print(Weight.weight)
