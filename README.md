@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 158 python files in this repo.
+There's now 159 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -159,6 +159,7 @@ There's now 158 python files in this repo.
 |<a href="./cb_scripts/useful_information.py">cb\_scripts/useful\_information.py</a>|Useful Information.|
 |<a href="./cb_scripts/virtualenv_env_requirements.py">cb\_scripts/virtualenv\_env\_requirements.py</a>|List Virtual Environment Python versions.|
 |<a href="./cb_scripts/weather.py">cb\_scripts/weather.py</a>|Weather from weather.gov.|
+|<a href="./cb_scripts/weather_forecast/__init__.py">cb\_scripts/weather\_forecast/\_\_init\_\_.py</a>|Weather from OpenWeatherMap.|
 |<a href="./cb_scripts/weekday_wrapper.py">cb\_scripts/weekday\_wrapper.py</a>|Useful Weekday wrappers.|
 |<a href="./cb_scripts/word_count.py">cb\_scripts/word\_count.py</a>|Count words and the three most common ones.|
 |<a href="./cb_scripts/words_per_minute.py">cb\_scripts/words\_per\_minute.py</a>|Calculate the words per minute of text.|
