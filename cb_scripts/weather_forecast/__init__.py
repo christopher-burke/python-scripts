@@ -5,6 +5,9 @@
 import os
 import requests
 import json
+from datetime import datetime
+from dateutil import tz
+from dataclasses import dataclass
 
 
 class WeatherData:
@@ -33,10 +36,51 @@ class WeatherData:
         return results
 
 
+@dataclass
+class WeatherDataDay:
+    """Weather Data for a given day."""
+
+    datetime_utc: str
+    datetime_local: datetime
+    temp_current: float
+    temp_hi_low: dict
+    wind: float
+    sun: dict
+    humidity: int
+    today: bool = False
+
+    def __post_init__(self):
+        self.utc_to_local()
+        self.today = self.todays_weather()
+
+    def todays_weather(self):
+        return datetime.today().date() == self.datetime_local.date()
+
+    def utc_to_local(self):
+        from_zone = tz.tzutc()
+        to_zone = tz.tzlocal()
+        utc = datetime.utcfromtimestamp(int(self.datetime_utc))
+        utc = utc.replace(tzinfo=from_zone)
+        self.datetime_local = utc.astimezone(to_zone)
+
+
 def main():
+    """Get Weather Data."""
     data = WeatherData()
-    print(data.current)
-    print(data.forecast)
+
+    wd = WeatherDataDay(
+        datetime_utc=data.current['dt'],
+        datetime_local=data.current['dt'],
+        temp_current=data.current['main']['temp'],
+        temp_hi_low={'high': data.current['main']['temp_max'],
+                     'low': data.current['main']['temp_min'], },
+        wind=data.current['wind']['speed'],
+        sun={'rise': data.current['sys']['sunrise'],
+             'set': data.current['sys']['sunset'], },
+        humidity=data.current['main']['humidity']
+    )
+
+    print(wd)
 
 
 if __name__ == "__main__":
