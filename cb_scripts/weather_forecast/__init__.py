@@ -144,7 +144,7 @@ def data(get_api_data):
 
 def main():
     """Get Weather Data."""
-    weather_data = data(get_api_data=False)
+    weather_data = data(get_api_data=True)
     current_data = parse_weather_data(weather_data.current)
     forecast_data = [asdict(parse_weather_data(data))
                      for data in weather_data.forecast_daily['list']]
@@ -154,5 +154,5 @@ def main():
 
 
 if __name__ == "__main__":
-    print(
-        json.dumps(main().__dict__, indent=4))
+    with open('data.json', 'w') as fout:
+        json.dump(main().__dict__, fout, indent=4)
