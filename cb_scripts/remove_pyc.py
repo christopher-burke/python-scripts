@@ -20,7 +20,7 @@ class RemovePyc:
 
 
 def main():
-    """Get the soruce directory, search and remove pyc files."""
+    """Get the source directory, search and remove pyc files."""
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,
                                      description='List file info.')
     parser.add_argument('src_dir', type=str, help='source directory')
