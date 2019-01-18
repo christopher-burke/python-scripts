@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 159 python files in this repo.
+There's now 160 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -120,6 +120,7 @@ There's now 159 python files in this repo.
 |<a href="./cb_scripts/qb_rating.py">cb\_scripts/qb\_rating.py</a>|NFL Quarterback Rating.|
 |<a href="./cb_scripts/random_name.py">cb\_scripts/random\_name.py</a>|Random Name - Generate a random name.|
 |<a href="./cb_scripts/random_password_gen.py">cb\_scripts/random\_password\_gen.py</a>|Class based random password generator.  Uses string, random, sys modules.|
+|<a href="./cb_scripts/random_quote.py">cb\_scripts/random\_quote.py</a>|Random Quote: Pick a Quote at random from a text file.|
 |<a href="./cb_scripts/readme.py">cb\_scripts/readme.py</a>|Generate the README.md file a repo.|
 |<a href="./cb_scripts/remove_common_words.py">cb\_scripts/remove\_common\_words.py</a>|Remove common words from text.|
 |<a href="./cb_scripts/remove_pyc.py">cb\_scripts/remove\_pyc.py</a>|Search and remove pyc files.|
