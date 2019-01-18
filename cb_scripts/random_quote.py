@@ -21,7 +21,7 @@ def load_quotes(quotes_file) -> tuple:
     return tuple(quotes)
 
 
-def main() -> str:
+def pick_quote(quotes_file) -> str:
     """Return a random quote."""
     try:
         quotes = load_quotes(
@@ -31,6 +31,11 @@ def main() -> str:
                         'Check `quotes_file` path in script.\n',
                         ])
     return random.sample(quotes, 1)[0]
+
+
+def main() -> str:
+    """Run pick_quote and return the result."""
+    return pick_quote()
 
 
 if __name__ == "__main__":
