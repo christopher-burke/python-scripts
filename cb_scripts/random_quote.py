@@ -25,7 +25,7 @@ def pick_quote(quotes_file) -> str:
     """Return a random quote."""
     try:
         quotes = load_quotes(
-            quotes_file='')
+            quotes_file=quotes_file)
     except FileNotFoundError:
         return "".join(['File Not Found: '
                         'Check `quotes_file` path in script.\n',
