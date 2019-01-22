@@ -12,6 +12,7 @@ from datetime import datetime
 import time
 import pathlib
 import json
+import os
 
 
 CopiedItem = namedtuple('CopiedItem', ['text', 'date', 'time'])
@@ -27,10 +28,18 @@ def write(item: CopiedItem):
     clipboard_history_file = pathlib.Path.home() / 'clipboard_history.json'
     try:
         with open(f'{clipboard_history_file}', 'a') as fout:
+            fout.seek(fout.tell() - 1, os.SEEK_SET)
+            fout.truncate()
+            fout.write(",")
             json.dump(item._asdict(), fout)
+            fout.write("]")
     except FileNotFoundError:
+        # Create a new file.
+        # Run if there is no clipboard history file found.
         with open(f'{clipboard_history_file}', 'w') as fout:
+            fout.write("[")
             json.dump(item._asdict(), fout, indent=4)
+            fout.write("]")
 
 
 def main():
