@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 160 python files in this repo.
+There's now 161 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -118,6 +118,7 @@ There's now 160 python files in this repo.
 |<a href="./cb_scripts/print_months.py">cb\_scripts/print\_months.py</a>|Print the calendars for last, this, and next|
 |<a href="./cb_scripts/programming_quotes.py">cb\_scripts/programming\_quotes.py</a>|Programming Quotes.|
 |<a href="./cb_scripts/qb_rating.py">cb\_scripts/qb\_rating.py</a>|NFL Quarterback Rating.|
+|<a href="./cb_scripts/rain.py">cb\_scripts/rain.py</a>|Rain. Tell if rain is in forecast.|
 |<a href="./cb_scripts/random_name.py">cb\_scripts/random\_name.py</a>|Random Name - Generate a random name.|
 |<a href="./cb_scripts/random_password_gen.py">cb\_scripts/random\_password\_gen.py</a>|Class based random password generator.  Uses string, random, sys modules.|
 |<a href="./cb_scripts/random_quote.py">cb\_scripts/random\_quote.py</a>|Random Quote: Pick a Quote at random from a text file.|
