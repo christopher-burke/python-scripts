@@ -13,7 +13,7 @@ import threading
 import logging
 logging.getLogger(name=__name__)
 logging.basicConfig(level=logging.DEBUG)
-# To disable debug, uncomment out bottom line.
+# To disable debug, un-comment out bottom line.
 # logging.disable(logging.CRITICAL)
 
 
