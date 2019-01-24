@@ -17,9 +17,9 @@ result_messages = {
 def rain(postal_code: str) -> bool:
     """Determine if rain is in forecast."""
     r = requests.get(f'https://weather.com/weather/hourbyhour/l/{postal_code}')
-    re.findall(
-        r'(?:<span>.*)(Rain|Shower[s]?)(?:</span>)', r.text, re.I | re.M)[0]
-    return bool(rain)
+    rain_ = re.findall(
+        r'(?:<span>.*)(Rain|Shower[s]?)(?:</span>)', r.text, re.I | re.M)
+    return bool(rain_)
 
 
 def main() -> str:
