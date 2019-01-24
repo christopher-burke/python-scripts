@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 
 def video_id(url: str) -> str:
     """Return the YouTube Video Id from URL."""
-    REGEX = '(?:https:\/\/www.youtube.com\/watch\?v=)([^&\n\r]*)'
+    REGEX = '(?:https:\/\/www.youtube.com\/watch\?v=|https:\/\/youtu.be\/)([^&\n\r]*)'
     youtube_id = re.match(REGEX, url, re.I | re.M)
     try:
         return f'{youtube_id.group(1)}'
