@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+from cb_scripts.what_next import WhatNextAction
+
+
+def main():
+    """Select an action."""
+    action = next(WhatNextAction().one())
+    return action
+
+
+if __name__ == "__main__":
+    print(main())
