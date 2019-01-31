@@ -10,9 +10,27 @@ Useful when files exceed the limit of being open by text editors.
 import sys
 
 
+class FileManager:
+    """File Manager class."""
+
+    def __init__(self, name):
+        """File Manager init method."""
+        self.name = name
+
+    def __enter__(self):
+        """Context Manager enter method.s"""
+        self.file = open(self.name, 'r')
+        return self.file
+
+    def __exit__(self, *args):
+        """Exit magic method."""
+        if self.file:
+            self.file.close()
+
+
 def print_lines(file_name):
     """Print Lines to Terminal."""
-    with open(f'{file_name}', 'r')as fin:
+    with FileManager(f'{file_name}') as fin:
         for line in fin:
             print(line)
 
