@@ -45,14 +45,24 @@ class IdleWatcher:
         windll.user32.mouse_event(4, 0, 0, 0, 0)
         print("Mouse Moved.")
 
+    def check(self):
+        """Check if Idle Duration is greater than or equal to IDLETIME.
+
+        Returns:
+            bool -- True when idle_duration is greater or equal to IDLETIME,
+                    False otherwise.
+        """
+
+        return self.idle_duration() >= self.IDLETIME
+
 
 def main():
     """Run the idle watcher and move mouse when needed."""
-    idle_time = 600  # 10 minutes
+    idle_time = 5  # 10 minutes
     idle_watcher = IdleWatcher(idle_time=idle_time)
     try:
         while 1:
-            if idle_watcher.idle_duration() >= idle_watcher.IDLETIME:
+            if idle_watcher.check():
                 idle_watcher.move_mouse_and_click()
             sleep(1)
     except KeyboardInterrupt:
