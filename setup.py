@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from pathlib import Path
 
 
@@ -10,8 +10,9 @@ setup(
     url='https://github.com/christopher-burke/python-scripts',
     author='Christopher Burke',
     license='MIT',
-
-    packages=['cb_scripts'],
+    version='0.1dev',
+    packages=find_packages(),
     scripts=scripts_dir,
+    include_package_data=True,
     zip_safe=False,
 )
