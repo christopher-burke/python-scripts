@@ -52,8 +52,8 @@ class IdleWatcher:
             bool -- True when idle_duration is greater or equal to IDLETIME,
                     False otherwise.
         """
-
-        return self.idle_duration() >= self.IDLETIME
+        idle_time = self.idle_duration()
+        return idle_time >= self.IDLETIME
 
 
 def main():
