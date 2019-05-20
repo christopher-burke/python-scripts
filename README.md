@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 168 python files in this repo.
+There's now 169 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -103,6 +103,7 @@ There's now 168 python files in this repo.
 |<a href="./cb_scripts/md_list_maker.py">cb\_scripts/md\_list\_maker.py</a>|Markdown list maker.|
 |<a href="./cb_scripts/meaning.py">cb\_scripts/meaning.py</a>|Look up the meaning of a word.|
 |<a href="./cb_scripts/monty_hall.py">cb\_scripts/monty\_hall.py</a>|Monty Hall Game.|
+|<a href="./cb_scripts/mouse_mover.py">cb\_scripts/mouse\_mover.py</a>|Mouse Mover.|
 |<a href="./cb_scripts/move_folder_files.py">cb\_scripts/move\_folder\_files.py</a>|Move files to another folder.|
 |<a href="./cb_scripts/mta_service.py">cb\_scripts/mta\_service.py</a>|Python Script to get the status of MTA Service.|
 |<a href="./cb_scripts/n_digit_pi.py">cb\_scripts/n\_digit\_pi.py</a>|Find Pi to the nth digit.|
