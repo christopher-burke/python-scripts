@@ -33,7 +33,10 @@ except ImportError:
 
 
 def move_mouse(x: int, y: int, num_seconds: int = 0):
-    """Helper function to pyautogui.moveTo."""
+    """Move mouse cursor helper function.
+
+    Uses pyautogui.moveTo function to move mouse cursor.
+    """
     pyautogui.moveTo(x, y, duration=num_seconds)
 
 
