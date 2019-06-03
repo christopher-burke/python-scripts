@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 169 python files in this repo.
+There's now 170 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -17,6 +17,7 @@ There's now 169 python files in this repo.
 |<a href="./cb_scripts/basic_logging.py">cb\_scripts/basic\_logging.py</a>|Basic Logging template.|
 |<a href="./cb_scripts/biggest_file.py">cb\_scripts/biggest\_file.py</a>|Find Biggest file.|
 |<a href="./cb_scripts/binary_search.py">cb\_scripts/binary\_search.py</a>|Binary Search Algorithm implmentation.|
+|<a href="./cb_scripts/bored.py">cb\_scripts/bored.py</a>|Bored - Suggest an activity with boredapi.com.|
 |<a href="./cb_scripts/breathe.py">cb\_scripts/breathe.py</a>|Rhythmic breathing.|
 |<a href="./cb_scripts/bst.py">cb\_scripts/bst.py</a>|Binary Search Tree.|
 |<a href="./cb_scripts/case.py">cb\_scripts/case.py</a>|Switch variable case.|
