@@ -2,11 +2,12 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 170 python files in this repo.
+There's now 171 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
 |<a href="./cb_scripts/__init__.py">cb\_scripts/\_\_init\_\_.py</a>|No docstring provided.|
+|<a href="./cb_scripts/action_verb.py">cb\_scripts/action\_verb.py</a>|Action Verbs.|
 |<a href="./cb_scripts/ad/account_expiration.py">cb\_scripts/ad/account\_expiration.py</a>|Account Expiration|
 |<a href="./cb_scripts/arrange_files.py">cb\_scripts/arrange\_files.py</a>|Arrange Files - File organizer.|
 |<a href="./cb_scripts/article_fetcher.py">cb\_scripts/article\_fetcher.py</a>|Get Articles from website urls.|
