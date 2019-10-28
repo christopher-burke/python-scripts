@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from cb_scripts.action_verb import action_verb
+
+
+print(action_verb())
