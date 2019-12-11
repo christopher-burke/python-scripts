@@ -33,7 +33,7 @@ def read_text():
 
 
 def replacer(pattern, replace, text):
-    """Subsititution wrapper from the re module."""
+    """Substitution wrapper from the re module."""
     return re.sub(pattern, replace, text)
 
 
