@@ -16,7 +16,7 @@ def flatten_as_list(iterable):
 
 
 def flatten_as_tuple(iterable):
-    """Flatten a nested iterable into a list."""
+    """Flatten a nested iterable into a tuple."""
     return tuple(chain(*iterable))
 
 
