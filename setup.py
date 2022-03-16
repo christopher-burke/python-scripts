@@ -22,6 +22,9 @@ setup(
     packages=find_packages(),
     install_requires=['requests'],
     scripts=scripts_dir,
-    include_package_data=True,
+    # include_package_data=True,
+    package_data={
+        'data': ['*'],
+    },
     zip_safe=False,
 )
