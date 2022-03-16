@@ -2,7 +2,7 @@
 
 These are python scripts I have created, modified or used. Some scripts are for fun, while others have valuable use in production.
 
-There's now 171 python files in this repo.
+There's now 164 python files in this repo.
 
 | Script  | DocString |
 | ------------- | ------------- |
@@ -86,14 +86,6 @@ There's now 171 python files in this repo.
 |<a href="./cb_scripts/print_months.py">cb\_scripts/print\_months.py</a>|Print the calendars for last, this, and next|
 |<a href="./cb_scripts/md_list_maker.py">cb\_scripts/md\_list\_maker.py</a>|Markdown list maker.|
 |<a href="./cb_scripts/latest_python_download.py">cb\_scripts/latest\_python\_download.py</a>|Download latest Python from FTP site.|
-|<a href="./cb_scripts/tests/test_word_count.py">cb\_scripts/tests/test\_word\_count.py</a>|No docstring provided.|
-|<a href="./cb_scripts/tests/test_flatten.py">cb\_scripts/tests/test\_flatten.py</a>|Test for flatten module.|
-|<a href="./cb_scripts/tests/test_circles.py">cb\_scripts/tests/test\_circles.py</a>|Unittest for circles.py.|
-|<a href="./cb_scripts/tests/test_divisors_unittest.py">cb\_scripts/tests/test\_divisors\_unittest.py</a>|No docstring provided.|
-|<a href="./cb_scripts/tests/test_breath.py">cb\_scripts/tests/test\_breath.py</a>|No docstring provided.|
-|<a href="./cb_scripts/tests/__init__.py">cb\_scripts/tests/\_\_init\_\_.py</a>|Unittests for library.|
-|<a href="./cb_scripts/tests/test_two_sums_unittest.py">cb\_scripts/tests/test\_two\_sums\_unittest.py</a>|No docstring provided.|
-|<a href="./cb_scripts/tests/test_internet_test.py">cb\_scripts/tests/test\_internet\_test.py</a>|Test for internet_test module.|
 |<a href="./cb_scripts/cipher/aes_cipher.py">cb\_scripts/cipher/aes\_cipher.py</a>|AES encryption using PyCrypto.|
 |<a href="./cb_scripts/cipher/cipher.py">cb\_scripts/cipher/cipher.py</a>|Cipher for encryption/decryption.|
 |<a href="./cb_scripts/cipher/rotational_cipher.py">cb\_scripts/cipher/rotational\_cipher.py</a>|Rotational Cipher.|
@@ -119,6 +111,7 @@ There's now 171 python files in this repo.
 |<a href="./cb_scripts/city_times/__init__.py">cb\_scripts/city\_times/\_\_init\_\_.py</a>|No docstring provided.|
 |<a href="./cb_scripts/city_times/app.py">cb\_scripts/city\_times/app.py</a>|No docstring provided.|
 |<a href="./cb_scripts/lock_screen.py">cb\_scripts/lock\_screen.py</a>|Lock the Screen.|
+|<a href="./cb_scripts/wordle_starter.py">cb\_scripts/wordle\_starter.py</a>|Wordle word starter.|
 |<a href="./cb_scripts/biggest_file.py">cb\_scripts/biggest\_file.py</a>|Find Biggest file.|
 |<a href="./cb_scripts/indenter.py">cb\_scripts/indenter.py</a>|Indentor using context manager.|
 |<a href="./cb_scripts/packtpub_free_learning.py">cb\_scripts/packtpub\_free\_learning.py</a>|Packt Free Learning book.|
