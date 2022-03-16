@@ -1,4 +1,2 @@
 include README.md
-include data *
-include cb_scripts/data/quotes/*.txt
-include docs/*.txt
+include data/*
