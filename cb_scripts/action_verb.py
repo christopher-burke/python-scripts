@@ -8,14 +8,16 @@ Pick a random action verb from data/action_verb.json.
 
 import random
 import json
+from pathlib import Path
 
 
 def load(
-        action_verb_json: str = 'data/json/action_verbs.json',
-        key: str = 'ACTION_VERBS'
+    action_verb_json: str = 'data/json/action_verbs.json',
+    key: str = 'ACTION_VERBS'
 ):
     """Load the action verbs."""
-    with open(action_verb_json, 'r') as raw_data:
+    BASE_DIR = Path(__file__).resolve().parent
+    with open(f"{BASE_DIR}/{action_verb_json}", 'r') as raw_data:
         data = json.load(raw_data)
     return data['ACTION_VERBS']
 
