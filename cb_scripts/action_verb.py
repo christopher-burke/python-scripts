@@ -11,7 +11,7 @@ import json
 
 
 def load(
-        action_verb_json: str = 'cb_scripts/data/json/action_verbs.json',
+        action_verb_json: str = 'data/json/action_verbs.json',
         key: str = 'ACTION_VERBS'
 ):
     """Load the action verbs."""
