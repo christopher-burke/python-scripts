@@ -11,13 +11,13 @@ from functools import partial
 
 
 def load_template():
-    file_loader = FileSystemLoader('cb_scripts/templates')
+    file_loader = FileSystemLoader('cb_scripts/data/templates')
     env = Environment(loader=file_loader)
     template = env.get_template('readme_template.md')
     return template
 
 
-def git_ls_tree(branch: str = 'master'):
+def git_ls_tree(branch: str = 'main'):
     """Return the git ls-tree command."""
     branch = quote(branch)
     return f"git ls-tree -r {branch} --name-only"
@@ -85,6 +85,7 @@ def main():
 
     files = tracked_files()
     scripts = search_dir(p, path, files, '.py')
+    scripts = [i for i in scripts if 'tests/' not in i[:7]]
     scripts = list(map(partial(process, p), scripts))
 
     for script in scripts:
