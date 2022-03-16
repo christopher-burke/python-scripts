@@ -1,4 +1,5 @@
 include README.md
-recursive-include data/*
+recursive-include cb_scripts data
+recursive-include cb_scripts *.json
 global-exclude __pycache__
 global-exclude *.py[co]
