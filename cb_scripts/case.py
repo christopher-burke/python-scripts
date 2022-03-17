@@ -11,13 +11,11 @@ import re
 
 
 def snake_case(input_str: str, camel_case=False) -> str:
-    """
-    Turn camel case into snake case.
+    """Turn camel case into snake case.
 
     :param input_str: String of variable.
     :return: Snake case string of input_str.
     """
-
     if camel_case:
         regex = r"([A-Z])"
         substitution = r'_\1'
@@ -25,12 +23,12 @@ def snake_case(input_str: str, camel_case=False) -> str:
         regex = r"([\s])"
         substitution = r'_'
 
-    snake_case = input_str[0].lower() +\
+    snake_case_str = input_str[0].lower() +\
         re.sub(regex,
                substitution,
                input_str[1:]).lower()
 
-    return f'{snake_case}'
+    return f'{snake_case_str}'
 
 
 if __name__ == "__main__":
