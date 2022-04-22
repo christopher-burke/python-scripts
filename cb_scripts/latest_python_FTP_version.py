@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
-"""Get the latest stable version number of Python from FTP site."""
+"""Get the latest stable version number of Python from FTP site.
+
+pip install requests beautifulsoup4
+"""
+
+import re
 
 import requests
-import re
 from bs4 import BeautifulSoup
 
 
@@ -18,15 +22,15 @@ def parse(content):
 
 def latest(url):
     """Find the latest python version number."""
-    r = requests.get(url)
-    py_versions = parse(r.content)
+    response = requests.get(url)
+    py_versions = sorted(parse(response.content))
     return py_versions[-1][:-1]
 
 
 def main(url):
     """Return the version number."""
-    c = latest(url)
-    print(c)
+    version = latest(url)
+    print(version)
 
 
 if __name__ == "__main__":
